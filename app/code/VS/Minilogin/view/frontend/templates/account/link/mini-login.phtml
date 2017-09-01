@@ -1,0 +1,133 @@
+<div data-block="mini_login" class="minilogin-wrapper">
+    <a class="action <?php if(!$block->isLoggedIn()): ?>showlogin<?php endif; ?>" href="<?php /* @escapeNotVerified */
+    echo $this->getHref(); ?>"
+       data-bind="scope: 'mini_login_content'">
+        <span class="text"><?php /* @escapeNotVerified */
+            echo __($this->getHrefTitle()); ?></span>
+    </a>
+
+    <div class="block block-minicart empty"
+         data-role="dropdownDialog"
+         data-mage-init='{"dropdownDialog":{
+                "appendTo":"[data-block=mini_login]",
+                "triggerTarget":".showlogin",
+                "timeout": "2000",
+                "closeOnMouseLeave": false,
+                "closeOnEscape": true,
+                "triggerClass":"active",
+                "parentClass":"active",
+                "buttons":[]}}'>
+        <div id="mini-login-content-wrapper" data-bind="scope: 'mini_login_content'">
+            <h3 class="title">Login</h3>
+            <div class="block block-customer-login"
+                 data-bind="attr: {'data-label': $t('or')}">
+                <div class="block-title">
+                    <strong id="block-customer-login-heading"
+                            role="heading"
+                            aria-level="2"
+                            data-bind="i18n: 'Checkout out using your account'"></strong>
+                </div>
+                <!-- ko foreach: getRegion('messages') -->
+                <!-- ko template: getTemplate() --><!-- /ko -->
+                <!--/ko-->
+                <!-- ko foreach: getRegion('before') -->
+                <!-- ko template: getTemplate() --><!-- /ko -->
+                <!-- /ko -->
+                <div class="block-content" aria-labelledby="block-customer-login-heading">
+                    <form class="form form-login"
+                          method="post"
+                          data-bind="submit:login, blockLoader: isLoading"
+                          id="login-form">
+                        <div class="fieldset login" data-bind="attr: {'data-hasrequired': $t('* Required Fields')}">
+                            <div class="field email required">
+                                <label class="label" for="email"><span data-bind="i18n: 'Email Address'"></span></label>
+
+                                <div class="control">
+                                    <input name="username"
+                                           id="email"
+                                           type="email"
+                                           class="input-text"
+                                           data-bind="attr: {autocomplete: autocomplete}"
+                                           data-validate="{required:true, 'validate-email':true}">
+                                </div>
+                            </div>
+                            <div class="field password required">
+                                <label for="pass" class="label"><span data-bind="i18n: 'Password'"></span></label>
+
+                                <div class="control">
+                                    <input name="password"
+                                           type="password"
+                                           class="input-text"
+                                           id="pass"
+                                           data-bind="attr: {autocomplete: autocomplete}"
+                                           data-validate="{required:true, 'validate-password':true}">
+                                </div>
+                            </div>
+                            <!-- ko foreach: getRegion('additional-login-form-fields') -->
+                            <!-- ko template: getTemplate() --><!-- /ko -->
+                            <!-- /ko -->
+                        </div>
+                        <div class="actions-toolbar">
+                            <input name="context" type="hidden" value="checkout"/>
+
+                            <div class="forgot-password-form">
+                                <a class="action" data-bind="attr: {href: forgotPasswordUrl}, click: callForgotPwdForm">
+                                    <span data-bind="i18n: 'Forgot Your Password?'"></span>
+                                </a>
+                            </div>
+
+                            <div class="buttons">
+                                <div>
+                                    <button type="submit" class="action action-login secondary" name="send" id="send2">
+                                        <span data-bind="i18n: 'Sign In'"></span>
+                                    </button>
+                                </div>
+                                <div>
+                                    <a class="action" data-bind="attr: {href: registerUrl}">
+                                        <span data-bind="i18n: 'Register'"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <form class="form form-forgotpwd no-display"
+                          method="post"
+                          data-bind="submit:forgotpwd"
+                          id="forgotpwd-form" action="<?php echo $block->getForgotPasswordActionUrl() ?>">
+                        <div class="fieldset forgotpwd" data-bind="attr: {'data-hasrequired': $t('* Required Fields')}">
+
+                            <div class="field note"><?php /* @escapeNotVerified */ echo __('Enter your email and we\'ll email you instructions on how to reset your password.'); ?></div>
+                            <div class="field email required">
+                                <label for="email_address" class="label"><span><?php /* @escapeNotVerified */ echo __('Email') ?></span></label>
+                                <div class="control">
+                                    <input type="email" name="email" alt="email" id="email_address" class="input-text" value="<?php echo $block->escapeHtml($block->getEmailValue()) ?>" data-validate="{required:true, 'validate-email':true}">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="actions-toolbar">
+                            <div class="buttons">
+                                <div>
+                                    <button type="submit" class="action" name="send" id="send3">
+                                        <span data-bind="i18n: 'Send'"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/x-magento-init">
+    {
+        "[data-block='mini_login']": {
+            "Magento_Ui/js/core/app": <?php /* @escapeNotVerified */ echo $block->getJsLayout(); ?>
+        },
+        "*": {
+            "Magento_Ui/js/block-loader": "<?php /* @escapeNotVerified */echo $block->getViewFileUrl('images/loader-1.gif'); ?>"
+        }
+    }
+    </script>
+</div>

@@ -1,0 +1,31 @@
+Specific,Specific
+Automatic,Automatic
+"Fixed amount","Fixed amount"
+Percentage,Percentage
+MageMonkey,MageMonkey
+Autoresponder,Autoresponder
+"AutoResponders Emails General","AutoResponders Emails General"
+Enabled,Enabled
+"Log Activated","Log Activated"
+Sender,Sender
+"After New Order","After New Order"
+"Set email trigger","Set email trigger"
+"Days after order","Days after order"
+"Order Status","Order Status"
+"Email Subject","Email Subject"
+"Email Template","Email Template"
+"Mandrill Tag","Mandrill Tag"
+"Customer Groups","Customer Groups"
+"Hour to send email","Hour to send email"
+"Before Customer Birthday","Before Customer Birthday"
+"Days before birthday","Days before birthday"
+"Create coupon?","Create coupon?"
+"Customer Groups for coupon","Customer Groups for coupon"
+"Coupon Code","Coupon Code"
+"Expire on","Expire on"
+"Coupon length","Coupon length"
+"Discount type","Discount type"
+"Discount amount","Discount amount"
+"Label for coupon","Label for coupon"
+"Related Products","Related Products"
+"Max Related Products","Max Related Products"

@@ -1,0 +1,76 @@
+"No Label","No Label"
+Default,Default
+Left,Left
+Right,Right
+"Full Width","Full Width"
+"Static Width","Static Width"
+Classic,Classic
+"1 Column","1 Column"
+"2 Columns","2 Columns"
+"3 Columns","3 Columns"
+"4 Columns","4 Columns"
+"5 Columns","5 Columns"
+"6 Columns","6 Columns"
+"7 Columns","7 Columns"
+"8 Columns","8 Columns"
+"9 Columns","9 Columns"
+"10 Columns","10 Columns"
+"11 Columns","11 Columns"
+"12 Columns","12 Columns"
+"Do not show","Do not show"
+1/12,1/12
+2/12,2/12
+3/12,3/12
+4/12,4/12
+5/12,5/12
+6/12,6/12
+7/12,7/12
+8/12,8/12
+9/12,9/12
+10/12,10/12
+11/12,11/12
+12/12,12/12
+"See More","See More"
+"We can't find products matching the selection.","We can't find products matching the selection."
+"Add to Cart","Add to Cart"
+"In stock","In stock"
+"Out of stock","Out of stock"
+"Add to Wish List","Add to Wish List"
+"Add to Compare","Add to Compare"
+"Learn More","Learn More"
+"Mega Menu","Mega Menu"
+"General Settings","General Settings"
+Enable,Enable
+"Default Menu Type","Default Menu Type"
+"eg: 500px","eg: 500px"
+"Visible Menu Depth","Visible Menu Depth"
+"eg: 1, 2, 3, 4 (0 - disable limits). For example, if you set this value to 2, only second level categories will be displayed.","eg: 1, 2, 3, 4 (0 - disable limits). For example, if you set this value to 2, only second level categories will be displayed."
+"Custom Links & Blocks","Custom Links & Blocks"
+"Static Block(before)","Static Block(before)"
+"Input the Static Block ID, the block content will be shown before the default category menu items and after home link.<br/>eg: menu_custom_links_before","Input the Static Block ID, the block content will be shown before the default category menu items and after home link.<br/>eg: menu_custom_links_before"
+"Static Block(after)","Static Block(after)"
+"Input the Static Block ID, the block content will be shown after the default category menu items<br/>eg: menu_custom_links","Input the Static Block ID, the block content will be shown after the default category menu items<br/>eg: menu_custom_links"
+"Category Labels","Category Labels"
+"Label 1","Label 1"
+"Define the text of the category label 1. Labels can be assigned to every category in <b>Products > Inventory > Categories</b>","Define the text of the category label 1. Labels can be assigned to every category in <b>Products > Inventory > Categories</b>"
+"Label 2","Label 2"
+"Define the text of the category label 2. Labels can be assigned to every category in <b>Products > Inventory > Categories</b>","Define the text of the category label 2. Labels can be assigned to every category in <b>Products > Inventory > Categories</b>"
+"Label 3","Label 3"
+"Define the text of the category label 3. Labels can be assigned to every category in <b>Products > Inventory > Categories</b>","Define the text of the category label 3. Labels can be assigned to every category in <b>Products > Inventory > Categories</b>"
+"SW Menu","SW Menu"
+"Hide This Menu Item","Hide This Menu Item"
+"Menu Type","Menu Type"
+"Sub Category Columns","Sub Category Columns"
+Float,Float
+"Category Label","Category Label"
+"Font Icon Class","Font Icon Class"
+"Top Block","Top Block"
+"Left Block Width","Left Block Width"
+"Left Block","Left Block"
+"Right Block Width","Right Block Width"
+"Right Block","Right Block"
+"Bottom Block","Bottom Block"
+"Onepage Category","Onepage Category"
+"Hide This Category","Hide This Category"
+"Category Hover Background Color","Category Hover Background Color"
+"Additional Content","Additional Content"

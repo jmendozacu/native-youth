@@ -1,0 +1,59 @@
+"Apply custom Shipping Policy","Apply custom Delivery Policy",module,Magento_Shipping
+"Are you sure you want to send a Shipment email to customer?","Are you sure you want to send a Delivery email to customer?",module,Magento_Shipping
+"Cannot do shipment for the order.","Cannot do delivery for the order.",module,Magento_Shipping
+"Cannot do shipment for the order separately from invoice.","Cannot do delivery for the order separately from invoice.",module,Magento_Shipping
+"Cannot initialize shipment for adding tracking number.","Cannot initialize delivery for adding tracking number.",module,Magento_Shipping
+"Cannot initialize shipment for delete tracking number.","Cannot initialize delivery for delete tracking number.",module,Magento_Shipping
+"Cannot save shipment.","Cannot save delivery.",module,Magento_Shipping
+"Cannot send shipment information.","Cannot send delivery information.",module,Magento_Shipping
+"Create Shipping Label","Create Delivery Label",module,Magento_Shipping
+"Create Shipping Label...","Create Delivery Label...",module,Magento_Shipping
+"Email Copy of Shipment","Email Copy of Delivery",module,Magento_Shipping
+"Incl. Tax","Incl. VAT",module,Magento_Shipping
+"Items Shipped","Items Dispatched",module,Magento_Shipping
+"Items to Ship","Items to Dispatch",module,Magento_Shipping
+"New Shipment","New Delivery",module,Magento_Shipping
+"New Shipment for Order #%1","New Deliery for Order #%1",module,Magento_Shipping
+"No shipping information available","No delivery information available",module,Magento_Shipping
+"Payment &amp; Shipping Method","Payment &amp; Delivery Method",module,Magento_Shipping
+"Print All Shipments","Print All Deliveries",module,Magento_Shipping
+"Print Shipment","Print Delivery",module,Magento_Shipping
+"Print Shipping Label","Print Delivery Label",module,Magento_Shipping
+"Qty Shipped","Qty Dispatched",module,Magento_Shipping
+"Qty to Ship","Qty to Dispatch",module,Magento_Shipping
+"Region/State","Region/County",module,Magento_Shipping
+"Ship","Dispatch",module,Magento_Shipping
+"Shipment #%1 | %3 (%2)","Delivery #%1 | %3 (%2)",module,Magento_Shipping
+"Shipment #","Delivery #",module,Magento_Shipping
+"Shipment Comments","Delivery Comments",module,Magento_Shipping
+"Shipment History","Delivery History",module,Magento_Shipping
+"Shipment Options","Delivery Options",module,Magento_Shipping
+"Shipments","Deliveries",module,Magento_Shipping
+"Shipment Total","Delivery Total",module,Magento_Shipping
+"Shipped or billed on:","Dispatched or invoiced on:",module,Magento_Shipping
+"Shipping &amp; Handling Information","Delivery &amp; Handling Information",module,Magento_Shipping
+"Shipping and Tracking Information","Delivery and Tracking Information",module,Magento_Shipping
+"Shipping Information","Delivery Information",module,Magento_Shipping
+"Shipping labels is not available.","Delivery labels is not available.",module,Magento_Shipping
+"Shipping Methods","Delivery Methods",module,Magento_Shipping
+"Shipping Policy","Delivery Policy",module,Magento_Shipping
+"Shipping Policy Parameters","Delivery Policy Parameters",module,Magento_Shipping
+"Shipping Settings","Delivery Settings",module,Magento_Shipping
+"There are no shipping labels related to selected orders.","There are no delivery labels related to selected orders.",module,Magento_Shipping
+"There are no shipping labels related to selected shipments.","There are no delivery labels related to selected shipments.",module,Magento_Shipping
+"the shipment email is not sent","the delivery email is not sent",module,Magento_Shipping
+"the shipment email was sent","the delivery email was sent",module,Magento_Shipping
+"The shipment has been created.","The delivery has been created.",module,Magento_Shipping
+"The shipping module is not available.","The delivery module is not available.",module,Magento_Shipping
+"This shipping method is not available. Please specify the zip code.","This delivery method is not available. Please specify the post code.",module,Magento_Shipping
+"Total Shipping Charges","Total Delivery Charges",module,Magento_Shipping
+"Track this shipment","Track this delivery",module,Magento_Shipping
+"We can't initialize shipment for adding tracking number.","We can't initialize delivery for adding tracking number.",module,Magento_Shipping
+"We can't initialize shipment for delete tracking number.","We can't initialize delivery for delete tracking number.",module,Magento_Shipping
+"We can't save the shipment right now.","We can't save the delivery right now.",module,Magento_Shipping
+"We don't have enough information to create shipping labels. Please make sure your store information and settings are complete.","We don't have enough information to create delivery labels. Please make sure your store information and settings are complete.",module,Magento_Shipping
+"We don't recognize or support the file extension in this shipment: %1.","We don't recognize or support the file extension in this delivery: %1.",module,Magento_Shipping
+"You are trying to add a quantity for some products that doesn't match the quantity that was shipped.","You are trying to add a quantity for some products that doesn't match the quantity that was dispatched.",module,Magento_Shipping
+"You created the shipping label.","You created the delivery label.",module,Magento_Shipping
+"You sent the shipment.","You sent the delivery.",module,Magento_Shipping
+"ZIP/Postal Code","Post Code",module,Magento_Shipping

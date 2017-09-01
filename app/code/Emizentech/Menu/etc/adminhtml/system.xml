@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <!-- Add new Tab -->
+        <tab id="gielberkers" translate="label" sortOrder="200">
+            <label>Catalog Sort By Text</label>
+        </tab>
+        <section id="example" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1"
+                 showInStore="1">
+            <label>Sort By Text</label>
+            <tab>gielberkers</tab>
+            <resource>Emizentech_Menu::config_example</resource>
+            <group id="general" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Change Text</label>
+                
+                
+                <field id="position" translate="label" type="text" sortOrder="3" showInDefault="1"
+                       showInStore="1" showInWebsite="1">
+                    <label>Sort By "Position" Text</label>
+                    <depends>
+                        <field id="enabled">1</field>
+                    </depends>
+                </field>
+                <field id="price" translate="label" type="text" sortOrder="3" showInDefault="1"
+                       showInStore="1" showInWebsite="1">
+                    <label>Sort By "Price" Text</label>
+                    <depends>
+                        <field id="enabled">1</field>
+                    </depends>
+                </field>
+                <field id="name" translate="label" type="text" sortOrder="3" showInDefault="1"
+                       showInStore="1" showInWebsite="1">
+                    <label>Sort By "Product Name" Text</label>
+                    <depends>
+                        <field id="enabled">1</field>
+                    </depends>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

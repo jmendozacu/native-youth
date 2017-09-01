@@ -1,0 +1,36 @@
+rootid,rootid
+store,store
+category_id,category_id
+name,name
+categories,categories
+path,path
+level,level
+position,position
+description,description
+url_key,url_key
+is_active,is_active
+display_mode,display_mode
+page_layout,page_layout
+is_anchor,is_anchor
+meta_title,meta_title
+meta_keywords,meta_keywords
+meta_description,meta_description
+category_image,category_image
+include_in_menu,include_in_menu
+custom_layout_update,custom_layout_update
+custom_design,custom_design
+custom_use_parent_settings,custom_use_parent_settings
+custom_apply_to_products,custom_apply_to_products
+category_products,category_products
+Categories,Categories
+"Import and Export Categories","Import and Export Categories"
+"The Categories have been imported.","The Categories have been imported."
+"'Invalid file upload attempt: ' .","'Invalid file upload attempt: ' ."
+"Invalid file upload attempt","Invalid file upload attempt"
+cms_block,cms_block
+"Invalid file upload attempt.","Invalid file upload attempt."
+"ERROR: PRODUCT DOES NOT EXIST","ERROR: PRODUCT DOES NOT EXIST"
+"Import Categories","Import Categories"
+"Export Categories","Export Categories"
+CSV,CSV
+"Excel XML","Excel XML"

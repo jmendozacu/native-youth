@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright © 2016 MagestyApps. All rights reserved.
+  ~  * See COPYING.txt for license details.
+  -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="magestyapps" translate="label" sortOrder="150">
+            <label>MagestyApps Extensions</label>
+        </tab>
+
+        <section id="magestyapps_geoip" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="0" showInStore="0">
+            <label>GeoIP Store Switcher</label>
+            <tab>magestyapps</tab>
+            <resource>MagestyApps_GeoipSwitcher::magestyapps_geoip</resource>
+
+            <!-- GeoIP Database Settings -->
+            <group id="database" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>GeoIP Database</label>
+                <field id="last_update" translate="label comment" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Last Updated At</label>
+                    <frontend_model>MagestyApps\GeoipSwitcher\Block\Adminhtml\System\Config\Database\UpdatedAt</frontend_model>
+                </field>
+                <field id="update_db" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Manual Update</label>
+                    <frontend_model>MagestyApps\GeoipSwitcher\Block\Adminhtml\System\Config\Database\Update</frontend_model>
+                </field>
+            </group>
+
+            <!-- Store Switcher Settings -->
+            <group id="storeswitcher" translate="label" type="select" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>Store Auto Switcher</label>
+                <field id="enable" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Automatically Switch Store</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="switch_mode" translate="label comment" type="select" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Switcher Mode</label>
+                    <comment><![CDATA[<b>One Time</b> - store will be switched only during the first visit.<br/><b>On Parameter</b> - store will be switched only if there is no "___store=..." parameter in url. Customers will be able to change store manually only using standard store selector.<br/><b>Always</b> - store will be always switched automatically. Customers will not be able to change store manually.]]></comment>
+                    <source_model>MagestyApps\GeoipSwitcher\Model\Config\Source\Mode</source_model>
+                </field>
+                <field id="switch_scope" translate="label comment" type="select" sortOrder="30" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Switcher Scope</label>
+                    <comment><![CDATA[<b>Global</b> - switch between all available store views.<br /><b>Website</b> - switch between store views only inside visited website.<br /><b>Store Group</b> - switch between store views only inside visited store group.]]></comment>
+                    <source_model>MagestyApps\GeoipSwitcher\Model\Config\Source\Scope</source_model>
+                </field>
+                <field id="switch_tax" translate="label comment" type="select" sortOrder="40" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Automatically Calculate Tax</label>
+                    <comment><![CDATA[Tax will be automatically applied based on visitor's country when shipping country is not provided]]></comment>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="exception_urls" translate="label comment" type="textarea" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Exception URLs</label>
+                    <comment><![CDATA[The urls (or their parts) for which the automatic store switching should be disabled.]]></comment>
+                </field>
+                <field id="relations" translate="label" type="text" sortOrder="50" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Store-Country Relations</label>
+                    <frontend_model>MagestyApps\GeoipSwitcher\Block\Adminhtml\System\Config\Relations</frontend_model>
+                </field>
+            </group>
+
+            <!-- Currency Switcher Settings -->
+            <group id="currencyswitcher" translate="label" type="select" sortOrder="30" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>Currency Auto Switcher</label>
+                <field id="enable" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Automatically Switch Currency</label>
+                    <comment><![CDATA[Note that the extension can switch only between the currencies that are enabled in your magento config.]]></comment>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="exception_urls" translate="label comment" type="textarea" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Exception URLs</label>
+                    <comment><![CDATA[The urls (or their parts) for which the automatic currency switching should be disabled.]]></comment>
+                </field>
+            </group>
+
+            <!-- GeoIP Blocker Settings -->
+            <group id="blocker" translate="label" type="select" sortOrder="40" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>GeoIP Blocker</label>
+                <field id="enable" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="countries" translate="label" type="multiselect" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Countries Blacklist</label>
+                    <source_model>Magento\Directory\Model\Config\Source\Country</source_model>
+                </field>
+                <field id="ip_list" translate="label comment" type="textarea" sortOrder="30" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>IP Adresses Blacklist</label>
+                    <comment><![CDATA[Specify one IP address per line]]></comment>
+                </field>
+                <field id="custom_redirect" translate="label comment" type="text" sortOrder="40" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Custom Redirect URL</label>
+                    <comment><![CDATA[Specify the URL which the blocked visitor should be redirected to. If empty then the visitor will see the default 403 error page.]]></comment>
+                </field>
+            </group>
+        </section>
+
+    </system>
+</config>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+ * Celebros
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish correct extension functionality.
+ * If you wish to customize it, please contact Celebros.
+ *
+ ******************************************************************************
+ * @category    Celebros
+ * @package     Celebros_ConversionPro
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-left" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="conversionpro_add_external_js" />
+    <update handle="conversionpro_remove_sidebars" />
+    <body>
+        <referenceBlock name="search.result" remove="true" />
+        <referenceContainer name="content">
+            <block class="Magento\Framework\View\Element\Template" name="conversionpro.search.result" template="Celebros_ConversionPro::search/result.phtml" />
+        </referenceContainer>
+    </body>
+</page>

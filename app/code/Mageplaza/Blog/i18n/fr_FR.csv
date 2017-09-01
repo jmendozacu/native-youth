@@ -1,0 +1,190 @@
+Categories,Categories
+"Create New Category","Create New Category"
+ROOT,ROOT
+Root,Root
+"Save Category","Save Category"
+"Delete Category","Delete Category"
+Reset,Reset
+"New Child Category","New Child Category"
+"New Root Category","New Root Category"
+"Category Information","Category Information"
+Name,Name
+Description,Description
+"URL Key","URL Key"
+Enabled,Enabled
+"Meta Title","Meta Title"
+"Meta Description","Meta Description"
+"Meta Keywords","Meta Keywords"
+"Meta Robots","Meta Robots"
+Category,Category
+ID,ID
+Position,Position
+Posts,Posts
+"Category Data","Category Data"
+"Category information","Category information"
+"Parent Category","Parent Category"
+"You can reassign the Category at any time in <a href=""%1"" target=""_blank"">Manage Categories</a>.","You can reassign the Category at any time in <a href=""%1"" target=""_blank"">Manage Categories</a>."
+"Add Child Category","Add Child Category"
+"Add Root Category","Add Root Category"
+"start typing to search Category","start typing to search Category"
+"New Category","New Category"
+"Create New Post","Create New Post"
+"Save Post","Save Post"
+"Save and Continue Edit","Save and Continue Edit"
+"Delete Post","Delete Post"
+"Edit Post '%1'","Edit Post '%1'"
+"New Post","New Post"
+"Post Information","Post Information"
+"Post name","Post name"
+"Short Description","Short Description"
+Content,Content
+"Post Content","Post Content"
+Image,Image
+"Featured image","Featured image"
+"In RSS","In RSS"
+"Allow Comment","Allow Comment"
+Post,Post
+Tags,Tags
+Topics,Topics
+"Create New Tag","Create New Tag"
+"Save Tag","Save Tag"
+"Delete Tag","Delete Tag"
+"Edit Tag '%1'","Edit Tag '%1'"
+"New Tag","New Tag"
+"Tag Information","Tag Information"
+Tag,Tag
+"Create New Topic","Create New Topic"
+"Save Topic","Save Topic"
+"Delete Topic","Delete Topic"
+"Edit Topic '%1'","Edit Topic '%1'"
+"New Topic","New Topic"
+"Topic Information","Topic Information"
+Topic,Topic
+Home,Home
+"Go to Home Page","Go to Home Page"
+"List Posts from %1","List Posts from %1"
+"The Category has been deleted.","The Category has been deleted."
+"Category to delete was not found.","Category to delete was not found."
+"Manage Categories","Manage Categories"
+"Category is not available.","Category is not available."
+"There was a Category move error.","There was a Category move error."
+"There was a Category move error. %1","There was a Category move error. %1"
+"You moved the Category","You moved the Category"
+"You saved the Category.","You saved the Category."
+"The Post has been deleted.","The Post has been deleted."
+"Post to delete was not found.","Post to delete was not found."
+"This Post no longer exists.","This Post no longer exists."
+"Please correct the data sent.","Please correct the data sent."
+"Something went wrong while saving the Post.","Something went wrong while saving the Post."
+"A total of %1 record(s) have been deleted.","A total of %1 record(s) have been deleted."
+"The Post has been saved.","The Post has been saved."
+"The Tag has been deleted.","The Tag has been deleted."
+"Tag to delete was not found.","Tag to delete was not found."
+"This Tag no longer exists.","This Tag no longer exists."
+"Something went wrong while saving the Tag.","Something went wrong while saving the Tag."
+"The Tag has been saved.","The Tag has been saved."
+"The Topic has been deleted.","The Topic has been deleted."
+"Topic to delete was not found.","Topic to delete was not found."
+"This Topic no longer exists.","This Topic no longer exists."
+"Something went wrong while saving the Topic.","Something went wrong while saving the Topic."
+"The Topic has been saved.","The Topic has been saved."
+Blog,Blog
+"Sorry, but we can't move the Category because we can't find the new parent Category you selected.","Sorry, but we can't move the Category because we can't find the new parent Category you selected."
+"We can't perform this Category move operation because the parent Category matches the child Category.","We can't perform this Category move operation because the parent Category matches the child Category."
+"INDEX,FOLLOW","INDEX,FOLLOW"
+"NOINDEX,NOFOLLOW","NOINDEX,NOFOLLOW"
+"NOINDEX,FOLLOW","NOINDEX,FOLLOW"
+"INDEX,NOFOLLOW","INDEX,NOFOLLOW"
+"List View","List View"
+"Grid View","Grid View"
+Light,Light
+Dark,Dark
+Social,Social
+"Reverse time","Reverse time"
+Time,Time
+"Disqus Comment","Disqus Comment"
+"Facebook Comment","Facebook Comment"
+"Disable Completely","Disable Completely"
+Edit,Edit
+Delete,Delete
+"Delete ""${ $.$data.name }""","Delete ""${ $.$data.name }"""
+"Are you sure you wan't to delete the Post ""${ $.$data.name }"" ?","Are you sure you wan't to delete the Post ""${ $.$data.name }"" ?"
+"Are you sure you wan't to delete the Tag ""${ $.$data.name }"" ?","Are you sure you wan't to delete the Tag ""${ $.$data.name }"" ?"
+"Are you sure you wan't to delete the Topic ""${ $.$data.name }"" ?","Are you sure you wan't to delete the Topic ""${ $.$data.name }"" ?"
+"Are you sure you want to delete this Category?","Are you sure you want to delete this Category?"
+"ID: %1","ID: %1"
+"This operation can take a long time","This operation can take a long time"
+"Collapse All","Collapse All"
+"Expand All","Expand All"
+"Please confirm site switching. All data that hasn't been saved will be lost.","Please confirm site switching. All data that hasn't been saved will be lost."
+"Posted on","Posted on"
+"Posted in","Posted in"
+"Read More","Read More"
+"There are no posts at this moment","There are no posts at this moment"
+"No Categories","No Categories"
+" | Posted in %1"," | Posted in %1"
+"Read more","Read more"
+[...],[...]
+"By ","By "
+Categories:,Categories:
+Tags:,Tags:
+"Share this post, Hit on social buttons!","Share this post, Hit on social buttons!"
+"About the Author: ","About the Author: "
+"Related Posts","Related Posts"
+Comments,Comments
+Popular,Popular
+Recent,Recent
+"<div style=""height: 50px;line-height: 50px;text-align: center;"">No Posts</div>","<div style=""height: 50px;line-height: 50px;text-align: center;"">No Posts</div>"
+"No Tags","No Tags"
+"Warning message","Warning message"
+Ok,Ok
+Cancel,Cancel
+"Choose existing Category.","Choose existing Category."
+"Create Category","Create Category"
+"Better Blog","Better Blog"
+General,General
+Enable,Enable
+"Enable/Disable Blog module","Enable/Disable Blog module"
+"Blog name","Blog name"
+"Blog Route","Blog Route"
+"Blog Url Suffix","Blog Url Suffix"
+"Show Blog Link in Top links","Show Blog Link in Top links"
+"<strong>Deprecated</strong> function. ","<strong>Deprecated</strong> function. "
+"Show Blog Link in Footer links","Show Blog Link in Footer links"
+"We will add a link to Blog URL in footer, <a href=""http://prntscr.com/bw0o7d"" target=""_blank"">learn more</a>. ","We will add a link to Blog URL in footer, <a href=""http://prntscr.com/bw0o7d"" target=""_blank"">learn more</a>. "
+"Show Widgets on Right Sidebar","Show Widgets on Right Sidebar"
+"Widgets: Popular posts, recent posts, categories, tags... ","Widgets: Popular posts, recent posts, categories, tags... "
+"Show Widgets on Left Sidebar","Show Widgets on Left Sidebar"
+"Listing Posts Mode","Listing Posts Mode"
+"You can display blog posts in Grid/List mode","You can display blog posts in Grid/List mode"
+"Enable Bootstrap","Enable Bootstrap"
+"If your store has already included <a href=""http://getbootstrap.com/"" target=""_blank"">BoostrapCSS</a>, so select <strong>No</strong> ","If your store has already included <a href=""http://getbootstrap.com/"" target=""_blank"">BoostrapCSS</a>, so select <strong>No</strong> "
+"Blog color","Blog color"
+"Default: #1abc9c; This color will be used in heading, background, link, tags ... There are few sample of color: Blue #2cc5e1; Green: #0ed08e; Orange: #f1703d; Violet: #6f5499; Black: #333333; Red: #f15d59","Default: #1abc9c; This color will be used in heading, background, link, tags ... There are few sample of color: Blue #2cc5e1; Green: #0ed08e; Orange: #f1703d; Violet: #6f5499; Black: #333333; Red: #f15d59"
+"Sidebar Widgets","Sidebar Widgets"
+"Number of recent posts","Number of recent posts"
+"Number of popular posts","Number of popular posts"
+"Comment Engine","Comment Engine"
+"Disqus unique name","Disqus unique name"
+"Facebook: AppID","Facebook: AppID"
+"Facebook: Number of comment","Facebook: Number of comment"
+"Facebook: Color scheme","Facebook: Color scheme"
+"Facebook: Order by","Facebook: Order by"
+"Blog SEO Meta Information","Blog SEO Meta Information"
+"Blog Meta title","Blog Meta title"
+"Blog Meta description","Blog Meta description"
+"Blog Meta keywords","Blog Meta keywords"
+"Social Share","Social Share"
+"Enable Social Share buttons. <a href=""http://prntscr.com/bw0tlg"" target=""_blank"">Learn more</a>","Enable Social Share buttons. <a href=""http://prntscr.com/bw0tlg"" target=""_blank"">Learn more</a>"
+"Addthis PubID","Addthis PubID"
+"Add New Post","Add New Post"
+"Delete Posts","Delete Posts"
+"Are you sure you wan't to delete selected Posts?","Are you sure you wan't to delete selected Posts?"
+Created,Created
+Modified,Modified
+"Add New Tag","Add New Tag"
+"Delete Tags","Delete Tags"
+"Are you sure you wan't to delete selected Tags?","Are you sure you wan't to delete selected Tags?"
+"Add New Topic","Add New Topic"
+"Delete Topics","Delete Topics"
+"Are you sure you wan't to delete selected Topics?","Are you sure you wan't to delete selected Topics?"

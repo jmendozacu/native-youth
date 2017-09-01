@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright © 2016 MagestyApps. All rights reserved.
+  ~  * See COPYING.txt for license details.
+  -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <magestyapps_geoip>
+            <database>
+                <last_update>2015-12-01 00:00:00</last_update>
+            </database>
+            <storeswitcher>
+                <enable>1</enable>
+                <switch_mode>onetime</switch_mode>
+                <switch_scope>global</switch_scope>
+                <switch_tax>1</switch_tax>
+                <exception_urls>/checkout/
+/paypal/
+/skrill/
+/twocheckout/</exception_urls>
+            </storeswitcher>
+            <currencyswitcher>
+                <enable>1</enable>
+                <exception_urls>/checkout/
+/paypal/
+/skrill/
+/twocheckout/</exception_urls>
+            </currencyswitcher>
+            <blocker>
+                <enable>0</enable>
+            </blocker>
+        </magestyapps_geoip>
+    </default>
+</config>

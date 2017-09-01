@@ -1,0 +1,73 @@
+<?php
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+?>
+<?php /** @var $block \Magento\Checkout\Block\Onepage\Success */ ?>
+<?php $date = date('d-m-Y');?>
+<div class="checkout-success">
+    <?php if ($block->getOrderId()):?>
+        <?php if ($block->getCanViewOrder()) :?>
+            <p><?php echo __('Your order number is: %1.', sprintf('<a href="%s" class="order-number"><strong>%s</strong></a>', $block->escapeHtml($block->getViewOrderUrl()), $block->escapeHtml($block->getOrderId()))) ?></p>
+            <p> <h1>Love You</h1>
+    <?php 
+         $objectManager = \Magento\Framework\App\ObjectManager::getInstance(); 
+         $order = $objectManager->get('Magento\Sales\Model\Order') 
+             ->loadByIncrementId($block->getOrderId()); 
+         $renderer = $objectManager->get('Magento\Sales\Model\Order\Address\Renderer'); 
+         $billingInfo = $renderer->format($order->getBillingAddress(), 'html'); 
+         $shippingInfo = $renderer->format($order->getShippingAddress(), 'html'); 
+         if ($billingInfo != $shippingInfo) { 
+             echo '<span>' . __('Billing Information') . ':</span> '; 
+             echo $billingInfo; 
+             echo '</p><p>'; 
+             echo '<span>' . __('Shipping Information') . ':</span> '; 
+             echo $shippingInfo; 
+         } else { 
+             echo '<span>' . __('Billing & Shipping Information') . ':</span> '; 
+             echo $billingInfo; 
+         } 
+    ?> 
+</p> 
+        <?php  else :?>
+            <p><?php echo __('Your order # is: <span>%1</span>.', $block->escapeHtml($block->getOrderId())) ?></p>
+        <?php endif;?>
+            <p><?php /* @escapeNotVerified */ echo __('We\'ll email you an order confirmation with details and tracking info.') ?></p>
+    <?php endif;?>
+
+    <?php echo $block->getAdditionalInfoHtml() ?>
+
+    <div class="actions-toolbar">
+        <div class="primary">
+            <a class="action primary continue" href="<?php /* @escapeNotVerified */ echo $block->getUrl() ?>"><span><?php /* @escapeNotVerified */ echo __('Continue Shopping') ?></span></a>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+     require([
+    'jquery',
+    'jquery/ui'
+    ], function ($) {
+  jQuery(document).ready(function(){
+
+    jQuery.ajax({
+      method: "POST",
+      url: "https://www.youthdiscount.com/admin/transactions",
+      data: {
+     "key": "R0yTXjE3TU2obw3ZB-Mi95sYZDE-d7GF", 
+       "campaign_name": "Native Youth",
+       "order_number": "015000743",
+       "voucher": "",
+       "order_value": "1",
+       "transaction_date": "26-07-2017"
+     
+      }
+    });
+  });
+  });
+</script>

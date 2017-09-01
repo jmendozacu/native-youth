@@ -1,0 +1,77 @@
+<?php
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+?>
+<?php
+/**
+ * Product list toolbar
+ *
+ * @var $block \Magento\Catalog\Block\Product\ProductList\Toolbar
+ */
+use Magento\Catalog\Model\Product\ProductList\Toolbar;
+?>
+<?php if ($block->getCollection()->getSize()): ?>
+    <div class="toolbar toolbar-products" data-mage-init='<?php /* @escapeNotVerified */ echo $block->getWidgetOptionsJson(); ?>'>
+        <?php if ($block->isExpanded()): ?>
+            <?php include ($block->getTemplateFile('VS_Template::product/list/toolbar/viewmode.phtml')) ?>
+        <?php endif; ?>
+
+        <?php include ($block->getTemplateFile('VS_Template::product/list/toolbar/amount.phtml')) ?>
+
+        <?php echo $block->getPagerHtml() ?>
+
+        <?php include ($block->getTemplateFile('VS_Template::product/list/toolbar/limiter.phtml')) ?>
+
+        <?php if ($block->isExpanded()): ?>
+            <?php include ($block->getTemplateFile('VS_Template::product/list/toolbar/sorter.phtml')) ?>
+        <?php endif; ?>
+    </div>
+<?php endif ?>
+
+<?php 
+/**get sort by configuration value**/
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+$position_text = $objectManager->get('Magento\Framework\App\Config\ScopeConfigInterface')->getValue('example/general/position');
+$price_text = $objectManager->get('Magento\Framework\App\Config\ScopeConfigInterface')->getValue('example/general/price');
+$name_text = $objectManager->get('Magento\Framework\App\Config\ScopeConfigInterface')->getValue('example/general/name');
+?>
+
+<script type="text/javascript">
+    
+jQuery(document).ready(function(){
+    jQuery("#sorter option").each(function() {
+      <?php if($position_text != ''){?>  
+
+      if(jQuery(this).val() == 'position') {
+        
+        jQuery(this).text("<?php echo $position_text; ?>");
+                   
+      }                        
+      <?php } ?>
+
+      <?php if($price_text != ''){?>  
+
+      if(jQuery(this).val() == 'price') {
+        
+        jQuery(this).text("<?php echo $price_text; ?>");
+                   
+      }                        
+      <?php } ?>
+
+      <?php if($name_text != ''){?>  
+
+      if(jQuery(this).val() == 'name') {
+        
+        jQuery(this).text("<?php echo $name_text; ?>");
+                   
+      }                        
+      <?php } ?>
+    });
+});
+
+</script>

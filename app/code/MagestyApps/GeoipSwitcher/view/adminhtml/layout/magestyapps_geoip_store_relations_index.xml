@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright © 2016 MagestyApps. All rights reserved.
+  ~  * See COPYING.txt for license details.
+  -->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <title>Store-Country Relations</title>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="MagestyApps\GeoipSwitcher\Block\Adminhtml\StoreSwitcher\Relations" name="magestyapps_geoip.storeswitcher.relations"/>
+        </referenceContainer>
+    </body>
+</page>

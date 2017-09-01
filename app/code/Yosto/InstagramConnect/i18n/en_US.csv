@@ -1,0 +1,61 @@
+"Template Management","Template Management"
+"Add Template","Add Template"
+"Instagram Connect","Instagram Connect"
+"Instagram Connect Configuration","Instagram Connect Configuration"
+"Client Id","Client Id"
+"Client id receive when register on Instagram developer.
+                    ","Client id receive when register on Instagram developer.
+                    "
+"Client Secret","Client Secret"
+"Client secret receive when register on Instagram developer.
+                    ","Client secret receive when register on Instagram developer.
+                    "
+"Access Token","Access Token"
+"Access token receive when authenticate on Instagram developer.
+                    ","Access token receive when authenticate on Instagram developer.
+                    "
+"Instagram Detail Product Display Configuration","Instagram Detail Product Display Configuration"
+"Product Detail Page Display","Product Detail Page Display"
+"Choose to display instagram image in product detail page.
+                    ","Choose to display instagram image in product detail page.
+                    "
+"Product Detail Image Number","Product Detail Image Number"
+"
+                        Choose the maximum image number to display in product detail page.
+                        The maximum number should be less than 20 for hight quality display.
+                    ","
+                        Choose the maximum image number to display in product detail page.
+                        The maximum number should be less than 20 for hight quality display.
+                    "
+"Display Likes And Comments","Display Likes And Comments"
+"Choose to display likes and comments count of image on Instagram.
+                    ","Choose to display likes and comments count of image on Instagram.
+                    "
+"Instagram Shopping Page Configuration","Instagram Shopping Page Configuration"
+"Enter link's label","Enter link's label"
+"Enable link on Navigation menu","Enable link on Navigation menu"
+"Choose to display link to Instagram Shopping Page on navigation menu.
+                    ","Choose to display link to Instagram Shopping Page on navigation menu.
+                    "
+"Enable link on Footer","Enable link on Footer"
+"Choose to display link to Instagram Shopping Page on footer.
+                    ","Choose to display link to Instagram Shopping Page on footer.
+                    "
+"Instagram Images Slider","Instagram Images Slider"
+"List of Images from Store owner instagram","List of Images from Store owner instagram"
+"Title (frontend)","Title (frontend)"
+Template,Template
+"Instagram list slider","Instagram list slider"
+"Instagram hash tag for slider Images","Instagram hash tag for slider Images"
+"Max number of image in slider","Max number of image in slider"
+"Number of columns","Number of columns"
+"Number of rows","Number of rows"
+"Display likes and comments","Display likes and comments"
+"Instagram Follower Slider","Instagram Follower Slider"
+"List of Instagram users which Store owner's instagram user is followed by.","List of Instagram users which Store owner's instagram user is followed by."
+"Instagram follower slider","Instagram follower slider"
+"Max number of follower in slider","Max number of follower in slider"
+"Instagram Shopping Page","Instagram Shopping Page"
+"Create a shopping page widget using Instagram images.","Create a shopping page widget using Instagram images."
+"Shopping Page","Shopping Page"
+"Choose template for shopping page.","Choose template for shopping page."

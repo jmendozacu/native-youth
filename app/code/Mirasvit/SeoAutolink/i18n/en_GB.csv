@@ -1,0 +1,68 @@
+"Run Import","Run Import"
+"Import Auto Links","Import Auto Links"
+"Import Links","Import Links"
+"Import File (.csv)","Import File (.csv)"
+"Add Link","Add Link"
+"Edit '%1'","Edit '%1'"
+"Add New Link","Add New Link"
+General,General
+Keyword,Keyword
+URL,URL
+"URL Target","URL Target"
+"URL Title","URL Title"
+Nofollow,Nofollow
+Yes,Yes
+No,No
+"Number of substitutions","Number of substitutions"
+"Sort order","Sort order"
+Occurence,Occurence
+Status,Status
+Active,Active
+Inactive,Inactive
+"Active From","Active From"
+"Active To","Active To"
+"Visible in Store View","Visible in Store View"
+ID,ID
+"Store View","Store View"
+Enabled,Enabled
+Disabled,Disabled
+Enable,Enable
+Disable,Disable
+Delete,Delete
+"Are you sure?","Are you sure?"
+" [deleted]"," [deleted]"
+"All Store Views","All Store Views"
+"New Link","New Link"
+"Link  Manager","Link  Manager"
+"Link Manager","Link Manager"
+"Add Link ","Add Link "
+"Item was successfully deleted","Item was successfully deleted"
+"Edit Link '%1'","Edit Link '%1'"
+"Edit Link ","Edit Link "
+"The Link does not exist.","The Link does not exist."
+"Please select item(s)","Please select item(s)"
+"Total of %1 record(s) were successfully deleted","Total of %1 record(s) were successfully deleted"
+"Total of %1 record(s) were successfully disabled","Total of %1 record(s) were successfully disabled"
+"Total of %1 record(s) were successfully enabled","Total of %1 record(s) were successfully enabled"
+"Link was successfully saved","Link was successfully saved"
+"Unable to find link to save","Unable to find link to save"
+First,First
+Last,Last
+Random,Random
+"CMS Page","CMS Page"
+"CMS Block","CMS Block"
+"Category Description","Category Description"
+"Product Short Description","Product Short Description"
+"Product Full Description","Product Full Description"
+"Product Attributes","Product Attributes"
+"Seo Description","Seo Description"
+"Blog MX Post Content","Blog MX Post Content"
+"_self (in current window)","_self (in current window)"
+"_blank (in new window)","_blank (in new window)"
+"_self (in own frameset)","_self (in own frameset)"
+"_top (in full current browser window)","_top (in full current browser window)"
+"Auto Links","Auto Links"
+"Add links on:","Add links on:"
+"Don't add links inside tags","Don't add links inside tags"
+"Skip auto links for a page","Skip auto links for a page"
+"Links limit per page","Links limit per page"

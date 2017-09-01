@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 ebizmarts. All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <dev>
+            <js>
+                <minify_exclude>api/v1/js/sagepay</minify_exclude>
+            </js>
+        </dev>
+        <sagepaysuite>
+            <global>
+                <active>0</active>
+                <license>[Request from ebizmarts]</license>
+                <vendorname>testebizmarts</vendorname>
+                <mode>test</mode>
+                <currency>base_currency</currency>
+                <token>0</token>
+                <reporting_password backend_model="Magento\Config\Model\Config\Backend\Encrypted" />
+            </global>
+            <advanced>
+                <threedsecure>UseMSPSetting</threedsecure>
+                <avscvc>UseMSPSetting</avscvc>
+                <fraud_autoinvoice>0</fraud_autoinvoice>
+                <basket_format>Sage50</basket_format>
+                <!--<fraud_notify>high_risk</fraud_notify>-->
+            </advanced>
+        </sagepaysuite>
+        <payment>
+            <sagepaysuiteform>
+                <active>0</active>
+                <active_moto>0</active_moto>
+                <model>Ebizmarts\SagePaySuite\Model\Form</model>
+                <payment_action>PAYMENT</payment_action>
+                <send_email>1</send_email>
+                <order_status>pending</order_status>
+                <title>Sage Pay FORM</title>
+                <encrypted_password backend_model="Magento\Config\Model\Config\Backend\Encrypted" />
+                <allowspecific>0</allowspecific>
+            </sagepaysuiteform>
+            <sagepaysuitepi>
+                <active>0</active>
+                <active_moto>0</active_moto>
+                <model>Ebizmarts\SagePaySuite\Model\PI</model>
+                <payment_action>PAYMENT</payment_action>
+                <order_status>pending</order_status>
+                <title>Sage Pay Direct</title>
+                <cctypes>AE,VI,MC,DI,JCB</cctypes>
+                <allowspecific>0</allowspecific>
+                <password backend_model="Magento\Config\Model\Config\Backend\Encrypted" />
+            </sagepaysuitepi>
+            <sagepaysuiteserver>
+                <active>0</active>
+                <model>Ebizmarts\SagePaySuite\Model\Server</model>
+                <payment_action>PAYMENT</payment_action>
+                <order_status>pending</order_status>
+                <title>Sage Pay SERVER</title>
+                <profile>0</profile>
+                <cctypes>AE,VI,MC,DI,JCB</cctypes>
+                <allowspecific>0</allowspecific>
+            </sagepaysuiteserver>
+            <sagepaysuitepaypal>
+                <active>0</active>
+                <model>Ebizmarts\SagePaySuite\Model\Paypal</model>
+                <payment_action>PAYMENT</payment_action>
+                <billing_agreement>0</billing_agreement>
+                <order_status>pending</order_status>
+                <title>PayPal</title>
+                <force_xml>1</force_xml>
+                <allowspecific>0</allowspecific>
+            </sagepaysuitepaypal>
+            <sagepaysuiterepeat>
+                <active>0</active>
+                <model>Ebizmarts\SagePaySuite\Model\Repeat</model>
+                <payment_action>REPEAT</payment_action>
+                <order_status>pending</order_status>
+                <title>Sage Pay REPEAT</title>
+                <allowspecific>0</allowspecific>
+            </sagepaysuiterepeat>
+        </payment>
+    </default>
+</config>

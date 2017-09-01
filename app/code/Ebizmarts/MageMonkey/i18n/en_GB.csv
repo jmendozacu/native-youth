@@ -1,0 +1,31 @@
+Magento,Magento
+MailChimp,MailChimp
+Add,Add
+"Invalid API Key","Invalid API Key"
+"---No Data---","---No Data---"
+"MageMonkey v","MageMonkey v"
+" by"," by"
+"Need help? See our ","Need help? See our "
+Wiki,Wiki
+" or browse our "," or browse our "
+"support forums","support forums"
+" Got feedback? "," Got feedback? "
+"Email us","Email us"
+"You can find more extension in our ","You can find more extension in our "
+Store,Store
+"Support MageMonkey, Subscribe for a free MailChimp Account!","Support MageMonkey, Subscribe for a free MailChimp Account!"
+MageMonkey,MageMonkey
+"Mailchimp General Configuration","Mailchimp General Configuration"
+Enabled,Enabled
+"API Key","API Key"
+"Get API credentials","Get API credentials"
+"Account Details","Account Details"
+"General Subscription","General Subscription"
+"Enable Log","Enable Log"
+"Customer Fields Mapping","Customer Fields Mapping"
+"
+                        Add the magento to mailchimp mapping
+                    ","
+                        Add the magento to mailchimp mapping
+                    "
+"Map the magento customer field to mailchimp merge_fields","Map the magento customer field to mailchimp merge_fields"

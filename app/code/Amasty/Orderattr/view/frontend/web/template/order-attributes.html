@@ -1,0 +1,16 @@
+<!--
+/**
+* @author Amasty Team
+* @copyright Copyright (c) 2016 Amasty (http://www.amasty.com)
+* @package Amasty_Orderattr
+*/
+-->
+<li id="order-attributes">
+    <div style="font-size: 2.0rem; width: 260px;" data-bind="i18n: 'Order Attributes'" data-role="title"></div>
+
+    <div id="order-attributes-form" class="fieldset address" style="margin-top: 20px;">
+        <!-- ko foreach: { data: elems, as: 'element' } -->
+            <!-- ko template: element.getTemplate() --><!-- /ko -->
+        <!-- /ko -->
+    </div>
+</li>

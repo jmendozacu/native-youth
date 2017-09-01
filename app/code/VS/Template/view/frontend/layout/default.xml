@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <script src="js/jquery.ticker.js" />
+        <script src="js/stickySidebar.js" /> 
+            <css src="css/customnew.css"/>
+             <css src="css/font-awesome.min.css"/>
+            
+            <!-- <css src="css/stylestickysidebar.css"/> -->
+            
+    </head>
+    <body>
+        <referenceBlock name="porto_header">
+            <action method="setTemplate">
+                <argument name="template" xsi:type="string">VS_Template::html/header.phtml</argument>
+            </action>
+        </referenceBlock>
+        <referenceBlock name="navigation.sections">
+            <action method="setTemplate">
+                <argument name="template" xsi:type="string">VS_Template::html/sections.phtml</argument>
+            </action>
+        </referenceBlock>
+        <referenceContainer name="page.top">
+            <block class="Smartwave\Megamenu\Block\Topmenu" name="sw.topnav" template="VS_Template::topmenu.phtml" before="-"/>
+        </referenceContainer>
+        
+        <referenceBlock name="register-link" remove="true" />
+        <referenceBlock name="authorization-link-login" remove="true" />
+        <!-- <referenceBlock name="my-account-link" remove="true" /> -->
+
+        
+    </body>
+</page>

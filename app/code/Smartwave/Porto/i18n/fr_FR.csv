@@ -1,0 +1,342 @@
+Title,Title
+Attribute,Attribute
+Categories,Categories
+Products,Products
+Order,Order
+"Add Tab","Add Tab"
+StaticBlock,StaticBlock
+"Purchase code is not valid!","Purchase code is not valid!"
+message,message
+Custom...,Custom...
+"Google Fonts...","Google Fonts..."
+"""Open Sans"", ""Helvetica Neue"", Helvetica, Arial, sans-serif","""Open Sans"", ""Helvetica Neue"", Helvetica, Arial, sans-serif"
+"Arial, ""Helvetica Neue"", Helvetica, sans-serif","Arial, ""Helvetica Neue"", Helvetica, sans-serif"
+"Georgia, serif","Georgia, serif"
+"""Lucida Sans Unicode"", ""Lucida Grande"", sans-serif","""Lucida Sans Unicode"", ""Lucida Grande"", sans-serif"
+"""Palatino Linotype"", ""Book Antiqua"", Palatino, serif","""Palatino Linotype"", ""Book Antiqua"", Palatino, serif"
+"Tahoma, Geneva, sans-serif","Tahoma, Geneva, sans-serif"
+"""Trebuchet MS"", Helvetica, sans-serif","""Trebuchet MS"", Helvetica, sans-serif"
+"Verdana, Geneva, sans-serif","Verdana, Geneva, sans-serif"
+19px,19px
+20px,20px
+Default,Default
+10px,10px
+11px,11px
+12px,12px
+13px,13px
+14px,14px
+15px,15px
+16px,16px
+17px,17px
+18px,18px
+"2 Columns","2 Columns"
+"3 Columns","3 Columns"
+"4 Columns","4 Columns"
+"5 Columns","5 Columns"
+"6 Columns","6 Columns"
+"7 Columns","7 Columns"
+"8 Columns","8 Columns"
+"As Full Width below the Header","As Full Width below the Header"
+"Main Column above the Toolbar","Main Column above the Toolbar"
+"Do not show","Do not show"
+"Custom Block","Custom Block"
+"Newsletter Subscribe","Newsletter Subscribe"
+1/12,1/12
+2/12,2/12
+3/12,3/12
+4/12,4/12
+5/12,5/12
+6/12,6/12
+7/12,7/12
+8/12,8/12
+9/12,9/12
+10/12,10/12
+11/12,11/12
+12/12,12/12
+"Wide (Default)","Wide (Default)"
+Boxed,Boxed
+"1170px (Default)","1170px (Default)"
+1280px,1280px
+"Full Width","Full Width"
+"Type 1","Type 1"
+"Type 2","Type 2"
+"Type 3","Type 3"
+"Type 4","Type 4"
+"Type 5","Type 5"
+"Type 6","Type 6"
+"Type 7","Type 7"
+"Type 8","Type 8"
+"Type 9","Type 9"
+"Type 10","Type 10"
+"Type 11","Type 11"
+"Type 12","Type 12"
+"Type 13","Type 13"
+"Type 14","Type 14"
+All,All
+"Demo 1","Demo 1"
+"Demo 2","Demo 2"
+"Demo 3","Demo 3"
+"Demo 4","Demo 4"
+"Demo 5","Demo 5"
+"Demo 6","Demo 6"
+"Demo 7","Demo 7"
+"Demo 8","Demo 8"
+"Demo 9","Demo 9"
+"Demo 10","Demo 10"
+"Demo 11","Demo 11"
+"Demo 12","Demo 12"
+"Demo 13","Demo 13"
+"Demo 14","Demo 14"
+"Demo 15","Demo 15"
+"Demo 16","Demo 16"
+"Demo 17","Demo 17"
+"Demo 18","Demo 18"
+"Demo 19","Demo 19"
+"Demo 20","Demo 20"
+Disable,Disable
+"Enable on Only Homepage","Enable on Only Homepage"
+"Enable on All Pages","Enable on All Pages"
+"1 Column","1 Column"
+"2 Columns with Left Sidebar","2 Columns with Left Sidebar"
+"2 Columns with Right Sidebar","2 Columns with Right Sidebar"
+Horizontal,Horizontal
+Vertical,Vertical
+Accordion,Accordion
+"Sticky Tab","Sticky Tab"
+"""Template file is empty or doesn't exist: "" .","""Template file is empty or doesn't exist: "" ."
+"'Failed generating CSS file: ' . . ' in ' .","'Failed generating CSS file: ' . . ' in ' ."
+"Error during Import CMS Sample Datas.","Error during Import CMS Sample Datas."
+"""Can't get the data file for import cms blocks/pages: "" .","""Can't get the data file for import cms blocks/pages: "" ."
+"Error during Import ' . . '.","Error during Import ' . . '."
+"""Can't get the data file for import "" . . "": "" .","""Can't get the data file for import "" . . "": "" ."
+"Success to Import ' . . '.","Success to Import ' . . '."
+"Error during Import CMS Datas.","Error during Import CMS Datas."
+"Porto 2.4.4","Porto 2.4.4"
+"Porto - Settings Panel","Porto - Settings Panel"
+General,General
+"Boxed / Wide","Boxed / Wide"
+"Out of Box Background Color for Boxed Version","Out of Box Background Color for Boxed Version"
+"Out of Box Background Image for Boxed Version","Out of Box Background Image for Boxed Version"
+"Custom Style for Boxed Version","Custom Style for Boxed Version"
+"Type in your custom styles , e.g.:<br/>
+                            <em>&nbsp;&nbsp;&nbsp;&nbsp;background-repeat: no-repeat;<br/>&nbsp;&nbsp;&nbsp;&nbsp;background-size: cover;<br/>&nbsp;&nbsp;&nbsp;&nbsp;background-attachment: fixed;</em>
+                            ","Type in your custom styles , e.g.:<br/>
+                            <em>&nbsp;&nbsp;&nbsp;&nbsp;background-repeat: no-repeat;<br/>&nbsp;&nbsp;&nbsp;&nbsp;background-size: cover;<br/>&nbsp;&nbsp;&nbsp;&nbsp;background-attachment: fixed;</em>
+                            "
+"Maximum Page Width","Maximum Page Width"
+"Disable Border Radius","Disable Border Radius"
+"Show Site Notice","Show Site Notice"
+"Show Notice custom block above of the header.","Show Notice custom block above of the header."
+"Custom Notice Block ID","Custom Notice Block ID"
+"Show Category List on Left","Show Category List on Left"
+"Show Share Buttons at the Right Side","Show Share Buttons at the Right Side"
+Header,Header
+"Header Type","Header Type"
+"Static Block ID","Static Block ID"
+"Toggle Text for Type 8","Toggle Text for Type 8"
+"Static Block ID for Type 8","Static Block ID for Type 8"
+"Sticky Header","Sticky Header"
+"Show Logo Image in Sticky Header","Show Logo Image in Sticky Header"
+"Logo Image","Logo Image"
+"Sticky Header on Mobile","Sticky Header on Mobile"
+"Show Only Short Currency Code in Currency Switcher","Show Only Short Currency Code in Currency Switcher"
+"Show Flag Images in Language Switcher","Show Flag Images in Language Switcher"
+"Enable Login Popup","Enable Login Popup"
+Footer,Footer
+"Newsletter Block Title","Newsletter Block Title"
+"Newsletter Block Text","Newsletter Block Text"
+"Footer - Top","Footer - Top"
+"Show Footer Top","Show Footer Top"
+"Static Block Id","Static Block Id"
+"Footer - Middle","Footer - Middle"
+"Show Footer Middle","Show Footer Middle"
+"Show Footer Ribbon","Show Footer Ribbon"
+"Ribbon Text","Ribbon Text"
+"Column 1","Column 1"
+"Column 1 Size","Column 1 Size"
+"Column 2","Column 2"
+"Column 2 Size","Column 2 Size"
+"Column 3","Column 3"
+"Column 3 Size","Column 3 Size"
+"Column 4","Column 4"
+"Column 4 Size","Column 4 Size"
+"Footer - Middle 2nd Row","Footer - Middle 2nd Row"
+"Show Footer Middle 2nd Row","Show Footer Middle 2nd Row"
+"Footer - Bottom","Footer - Bottom"
+"Show Footer Bottom","Show Footer Bottom"
+"Show Store Switcher","Show Store Switcher"
+"Copyright Text","Copyright Text"
+"Static Block Id(before copyright text)","Static Block Id(before copyright text)"
+"Static Block Id(after copyright text)","Static Block Id(after copyright text)"
+"Category View","Category View"
+"Show Alternative Product Image","Show Alternative Product Image"
+"Show thumbnail image when mouse over in the product image area.","Show thumbnail image when mouse over in the product image area."
+"Keep Image Aspect Ratio","Keep Image Aspect Ratio"
+"Image Width","Image Width"
+"Image Height","Image Height"
+"Show Rating Stars","Show Rating Stars"
+"Show Product Price","Show Product Price"
+"Show Action Links","Show Action Links"
+"Show Add to Compare Links","Show Add to Compare Links"
+"Show Add to Wishlist Links","Show Add to Wishlist Links"
+"Page Layout","Page Layout"
+"Category Description Position","Category Description Position"
+"Custom Block Id for Sidebar","Custom Block Id for Sidebar"
+"Category View (Grid Mode)","Category View (Grid Mode)"
+"Products Grid Columns","Products Grid Columns"
+"One Column of Products Grid on Phone Devices","One Column of Products Grid on Phone Devices"
+"Flex Grid","Flex Grid"
+"Move Actions","Move Actions"
+"If yes, all of the action links that ""Add to Cart"" button, ""Add to Compare"" link and ""Add to Wishlist"" link will be moved into the product image area.","If yes, all of the action links that ""Add to Cart"" button, ""Add to Compare"" link and ""Add to Wishlist"" link will be moved into the product image area."
+"Product View","Product View"
+"Product Image Size","Product Image Size"
+"Static Block Id for Main Custom Block","Static Block Id for Main Custom Block"
+"Static Block Id for Sidebar Custom Block","Static Block Id for Sidebar Custom Block"
+"Show Prev/Next Product Links","Show Prev/Next Product Links"
+"Previous Link Text","Previous Link Text"
+"Next Link Text","Next Link Text"
+"Upsell Products Grid Columns","Upsell Products Grid Columns"
+"Move Upsell Products below the product image","Move Upsell Products below the product image"
+"Move Add To Links after Add to Cart Button","Move Add To Links after Add to Cart Button"
+"Custom Social Icons","Custom Social Icons"
+"Enable Addtocart Sticky","Enable Addtocart Sticky"
+"Product Tabs Style","Product Tabs Style"
+"Move Product Tabs at the Right of Product Image","Move Product Tabs at the Right of Product Image"
+"Product Custom Tabs","Product Custom Tabs"
+"Product Custom Static Block Tabs","Product Custom Static Block Tabs"
+"Product Custom Attribute Tabs","Product Custom Attribute Tabs"
+"Product Label","Product Label"
+"Show ""New"" Label","Show ""New"" Label"
+"""New"" Label Text","""New"" Label Text"
+"Show ""Sale"" Label","Show ""Sale"" Label"
+"Show ""Sale"" Label with Discount Percent","Show ""Sale"" Label with Discount Percent"
+"""Sale"" Label Text","""Sale"" Label Text"
+"Newsletter Popup","Newsletter Popup"
+Enabled,Enabled
+Delay(miliseconds),Delay(miliseconds)
+"Popup Content Text","Popup Content Text"
+"Popup Width","Popup Width"
+"Popup Height","Popup Height"
+"Popup Backgroud Color","Popup Backgroud Color"
+"Popup Background Image","Popup Background Image"
+"Custom Style","Custom Style"
+"Contact Us","Contact Us"
+"Google Map","Google Map"
+"Show Google Map","Show Google Map"
+"Google Map API key","Google Map API key"
+"You can get an API key from <a href=""https://developers.google.com/maps/documentation/javascript/get-api-key"">https://developers.google.com/maps/documentation/javascript/get-api-key</a><br/>
+                    eg: AIzaSyCkw3Q5Y7y2prqgTXSvF50Nr09-j7_carc</br>
+                    This is an example key for localhost.
+                    ","You can get an API key from <a href=""https://developers.google.com/maps/documentation/javascript/get-api-key"">https://developers.google.com/maps/documentation/javascript/get-api-key</a><br/>
+                    eg: AIzaSyCkw3Q5Y7y2prqgTXSvF50Nr09-j7_carc</br>
+                    This is an example key for localhost.
+                    "
+Address,Address
+Latitude,Latitude
+Longitude,Longitude
+Zoom,Zoom
+"Contact Info","Contact Info"
+"Custom Block before Contacts Form","Custom Block before Contacts Form"
+"Input the Static Block Id, this static block will be shown below of the google map and above of the contacts form.","Input the Static Block Id, this static block will be shown below of the google map and above of the contacts form."
+"Customization Settings","Customization Settings"
+"Custom Style 1","Custom Style 1"
+"Type in your custom styles , e.g.:<br/>
+                            <em>.page { padding: 0; margin: 0; }<br/>
+                            .main { font-size: 14px; font-weight:400; }
+                            </em>
+                            ","Type in your custom styles , e.g.:<br/>
+                            <em>.page { padding: 0; margin: 0; }<br/>
+                            .main { font-size: 14px; font-weight:400; }
+                            </em>
+                            "
+"Custom Style 2","Custom Style 2"
+"This field is useful with multi store. So you can add your global custom styles into this field.","This field is useful with multi store. So you can add your global custom styles into this field."
+Installation,Installation
+"Demo Version","Demo Version"
+"Select the demo version, then import static blocks and cms pages.","Select the demo version, then import static blocks and cms pages."
+"Import Static Blocks","Import Static Blocks"
+"Overwrite Existing Blocks","Overwrite Existing Blocks"
+"If the identifiers of the static blocks are already exist, you can set to ""Yes"" then save the configuration, then click the ""Import Static Blocks"" button.","If the identifiers of the static blocks are already exist, you can set to ""Yes"" then save the configuration, then click the ""Import Static Blocks"" button."
+"Import CMS Pages","Import CMS Pages"
+"Overwrite Existing Pages","Overwrite Existing Pages"
+"If the identifiers of the cms pages are already exist, you can set to ""Yes"" then save the configuration, then click the ""Import Static Blocks"" button.","If the identifiers of the cms pages are already exist, you can set to ""Yes"" then save the configuration, then click the ""Import Static Blocks"" button."
+"Import Demo Version Settings","Import Demo Version Settings"
+"Porto - Design Panel","Porto - Design Panel"
+"Theme Colors","Theme Colors"
+Font,Font
+Custom,Custom
+"Basic Font Size","Basic Font Size"
+"Basic Font Family","Basic Font Family"
+"Font Family - Custom","Font Family - Custom"
+"Font Family - Google Fonts","Font Family - Google Fonts"
+"Character Set: Latin Extended","Character Set: Latin Extended"
+"Custom Character Subset","Custom Character Subset"
+Colors,Colors
+"Basic Colors","Basic Colors"
+"Text Color","Text Color"
+"Link Color","Link Color"
+"Link Hover Color","Link Hover Color"
+Buttons,Buttons
+"Button Background Color","Button Background Color"
+"Button Text Color","Button Text Color"
+"Button Hover Background Color","Button Hover Background Color"
+"Button Hover Text Color","Button Hover Text Color"
+"Addto Links","Addto Links"
+"Add to Wishlist Link Color","Add to Wishlist Link Color"
+"Add to Wishlist Link Hover Color","Add to Wishlist Link Hover Color"
+"Add to Compare Link Color","Add to Compare Link Color"
+"Add to Compare Link Hover Color","Add to Compare Link Hover Color"
+Breadcrumbs,Breadcrumbs
+"Background Color","Background Color"
+"Links Color","Links Color"
+"Links Hover Color","Links Hover Color"
+"Product Labels","Product Labels"
+"""Sale"" Label Background Color","""Sale"" Label Background Color"
+"""Sale"" Label Font Color","""Sale"" Label Font Color"
+"""New"" Label Background Color","""New"" Label Background Color"
+"""New"" Label Font Color","""New"" Label Font Color"
+"Price Slider in LayeredNavigation","Price Slider in LayeredNavigation"
+"Handle Color","Handle Color"
+"Header Background Color","Header Background Color"
+"Header Background Image","Header Background Image"
+"Header Border Color","Header Border Color"
+"Header Text Color","Header Text Color"
+"Header Links Color","Header Links Color"
+"Header - Top","Header - Top"
+"Top Links Block Background Color","Top Links Block Background Color"
+"Top Links Block Font Color","Top Links Block Font Color"
+"Header - Menu","Header - Menu"
+"Font Color","Font Color"
+"Hover Background Color","Hover Background Color"
+"Hover Font Color","Hover Font Color"
+"Header - Menu(Classic)","Header - Menu(Classic)"
+"Dropdown Background Color","Dropdown Background Color"
+"Dropdown Border Color","Dropdown Border Color"
+"Dropdown Item Font Color","Dropdown Item Font Color"
+"Dropdown Item Hover Background Color","Dropdown Item Hover Background Color"
+"Dropdown Item Hover Font Color","Dropdown Item Hover Font Color"
+"Header - Menu(Megamenu)","Header - Menu(Megamenu)"
+"Header - Menu(Category Labels)","Header - Menu(Category Labels)"
+"Label1 Background Color","Label1 Background Color"
+"Label1 Font Color","Label1 Font Color"
+"Label2 Background Color","Label2 Background Color"
+"Label2 Font Color","Label2 Font Color"
+"Label3 Background Color","Label3 Background Color"
+"Label3 Font Color","Label3 Font Color"
+"Header - Searchbox","Header - Searchbox"
+"Search Text Font Color","Search Text Font Color"
+"Border Color","Border Color"
+"Header - Mini Cart","Header - Mini Cart"
+"Icon Color","Icon Color"
+"Text Font Color","Text Font Color"
+"Block Title Color","Block Title Color"
+"Links Icon Color","Links Icon Color"
+"Ribbon Background Color","Ribbon Background Color"
+"Ribbon Shadow Color","Ribbon Shadow Color"
+"Ribbon Text Font Color","Ribbon Text Font Color"
+"Page Wrapper","Page Wrapper"
+"Background Image","Background Image"
+"Main Content","Main Content"
+"Activate Theme","Activate Theme"
+"Purchase Code","Purchase Code"
+"Purchase Code Confirm","Purchase Code Confirm"

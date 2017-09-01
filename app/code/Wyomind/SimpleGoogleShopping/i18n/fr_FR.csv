@@ -1,0 +1,234 @@
+"Manage Data feeds","Manage Data feeds"
+"Create New Data Feed","Create New Data Feed"
+Delete,Delete
+Duplicate,Duplicate
+Generate,Generate
+Save,Save
+"mapped as","mapped as"
+"your google product category","your google product category"
+Categories,Categories
+Configuration,Configuration
+"Library url","Library url"
+"Library sample url","Library sample url"
+"Sample url","Sample url"
+"Categories url","Categories url"
+"Sample report url","Sample report url"
+"Category filter","Category filter"
+"Category type","Category type"
+"Attributes filters","Attributes filters"
+Filename,Filename
+Path,Path
+"Directory where the file is stored (related to the Magento root directory)","Directory where the file is stored (related to the Magento root directory)"
+"Store View","Store View"
+"Data from a particular store view that must be used in the data feed","Data from a particular store view that must be used in the data feed"
+"Website url","Website url"
+"Url of the data feed (internal use only)","Url of the data feed (internal use only)"
+Title,Title
+"Title of the data feed (internal use only)","Title of the data feed (internal use only)"
+Description,Description
+"Description of the data feed (internal use only)","Description of the data feed (internal use only)"
+"Generate a preview","Generate a preview"
+"Xml pattern","Xml pattern"
+"Product template that will be used to generate the final output for the data feed","Product template that will be used to generate the final output for the data feed"
+"Cron schedule","Cron schedule"
+Filters,Filters
+"Simple Google Shopping","Simple Google Shopping"
+Id,Id
+Link,Link
+Status,Status
+Update,Update
+Store,Store
+Action,Action
+"'Unable to generate the data feed : ' .","'Unable to generate the data feed : ' ."
+Edit,Edit
+"Preview (%1 items)","Preview (%1 items)"
+"Show Report","Show Report"
+Debug,Debug
+ERROR,ERROR
+"Simple Google Shopping : generate data feeds","Simple Google Shopping : generate data feeds"
+"Space-separated list of data feed (generate all feeds if empty)","Space-separated list of data feed (generate all feeds if empty)"
+"Simple Google Shopping : get list of available feeds","Simple Google Shopping : get list of available feeds"
+"Unable to generate the data feed.","Unable to generate the data feed."
+"The data feed has been deleted.","The data feed has been deleted."
+"We can't find a data feed to delete.","We can't find a data feed to delete."
+"Manage Data Feeds","Manage Data Feeds"
+"This data feed no longer exists.","This data feed no longer exists."
+"Modify data feed : ","Modify data feed : "
+"New data feed","New data feed"
+"The data feed ","The data feed "
+" has been generated."," has been generated."
+"Google Shopping Data Feeds","Google Shopping Data Feeds"
+"Online documentation : ","Online documentation : "
+Attributes,Attributes
+Functions,Functions
+Tutorial,Tutorial
+"More documentation","More documentation"
+"Attribute label","Attribute label"
+"Attribute code","Attribute code"
+"Load sample","Load sample"
+"More information","More information"
+"Unable to generate the data feed\n","Unable to generate the data feed\n"
+"The data feed has been saved.","The data feed has been saved."
+"Unable to save the data feed.","Unable to save the data feed."
+"Unable to find a data feed to generate.","Unable to find a data feed to generate."
+"Invalid activation key","Invalid activation key"
+" product"," product"
+" exported in "," exported in "
+"The data feed must be generated prior to any report.","The data feed must be generated prior to any report."
+"no error detected","no error detected"
+error,error
+warning,warning
+"no report available","no report available"
+"This report does not replace the error report from Google and is by no means a guarantee that your data feed will be approved by the Google team.","This report does not replace the error report from Google and is by no means a guarantee that your data feed will be approved by the Google team."
+items,items
+Examples:,Examples:
+"no error detected.","no error detected."
+"Individual product urls","Individual product urls"
+"Shortest category urls","Shortest category urls"
+"Longest category urls","Longest category urls"
+"File ""%s"" is already processing. Please wait the end of the process.","File ""%s"" is already processing. Please wait the end of the process."
+"Pl\x65\x61s\145\40che\143\153\40t\x68\145\40\141\164tri\142\165te \166\x61\154\x75\x65\56\x20\x54\x68e\40\x63o\156t\x65\x6et\x20\155\x61\171\x20\x67\145n\145\x72\141\x74e \x61\156\x20\170m\154\40\x70\x61\x72\x73e\40e\x72r\157\x72","Pl\x65\x61s\145\40che\143\153\40t\x68\145\40\141\164tri\142\165te \166\x61\154\x75\x65\56\x20\x54\x68e\40\x63o\156t\x65\x6et\x20\155\x61\171\x20\x67\145n\145\x72\141\x74e \x61\156\x20\170m\154\40\x70\x61\x72\x73e\40e\x72r\157\x72"
+"P\154\145a\x73\x65 \143\150\145c\x6b\x20\x74h\x65 te\155pl\141\x74e\40\163\x79nt\141\170\56","P\154\145a\x73\x65 \143\150\145c\x6b\x20\x74h\x65 te\155pl\141\x74e\40\163\x79nt\141\170\56"
+"\x4d\x69ssi\x6e\147 req\165\x69\x72\145\x64\40a\164\x74\162i\142\x75\164\145","\x4d\x69ssi\x6e\147 req\165\x69\x72\145\x64\40a\164\x74\162i\142\x75\164\145"
+"\x4d\x69\x73\163\x69\156\147\x20\x72ec\x6fmme\x6e\x64ed\x20\x61\164t\x72\x69\142u\164\x65","\x4d\x69\x73\163\x69\156\147\x20\x72ec\x6fmme\x6e\x64ed\x20\x61\164t\x72\x69\142u\164\x65"
+"T\x6f\157 ma\156\171 a\164tr\x69\142\165\x74\145\x20","T\x6f\157 ma\156\171 a\164tr\x69\142\165\x74\145\x20"
+"A\164\164\162ib\x75\164\145\x20\166\x61\154u\x65\40\164\157\x6f\40\x6c\157\x6eg","A\164\164\162ib\x75\164\145\x20\166\x61\154u\x65\40\164\157\x6f\40\x6c\157\x6eg"
+"\111\156v\x61\154id\x20\141\164t\x72i\x62u\x74e\x20v\141\x6c\x75\x65","\111\156v\x61\154id\x20\141\164t\x72i\x62u\x74e\x20v\141\x6c\x75\x65"
+"\163\171\x6d\142\x6fls\x20\x6dax\x69\x6dum","\163\171\x6d\142\x6fls\x20\x6dax\x69\x6dum"
+"\145\170\x70\145\x63\x74\145\x64","\145\170\x70\145\x63\x74\145\x64"
+"File ""%1"" cannot be saved.<br/>Please, make sure the directory ""%2"" is writeable by web server.","File ""%1"" cannot be saved.<br/>Please, make sure the directory ""%2"" is writeable by web server."
+"Invalid data","Invalid data"
+"Category filter type","Category filter type"
+"<b>Exclude</b> all products from the selected categories.","<b>Exclude</b> all products from the selected categories."
+"<b>Include</b> all products from the selected categories.","<b>Include</b> all products from the selected categories."
+"Based on ","Based on "
+"<b>Product</b> categories only","<b>Product</b> categories only"
+"<b>Product and parent</b> categories","<b>Product and parent</b> categories"
+"<b>Parent</b> categories only","<b>Parent</b> categories only"
+"Category selection and mapping","Category selection and mapping"
+"Google Taxonomy source : ","Google Taxonomy source : "
+"* If you do not select any category, all products will be exported","* If you do not select any category, all products will be exported"
+Settings,Settings
+"Days of the week","Days of the week"
+"Hours of the day","Hours of the day"
+Monday,Monday
+"00:00 AM","00:00 AM"
+"00:30 AM","00:30 AM"
+"12:00 AM","12:00 AM"
+"12:30 AM","12:30 AM"
+"01:00 AM","01:00 AM"
+"01:30 AM","01:30 AM"
+"01:00 PM","01:00 PM"
+"01:30 PM","01:30 PM"
+"02:00 AM","02:00 AM"
+"02:30 AM","02:30 AM"
+"02:00 PM","02:00 PM"
+"02:30 PM","02:30 PM"
+"03:00 AM","03:00 AM"
+"03:30 AM","03:30 AM"
+"03:00 PM","03:00 PM"
+"03:30 PM","03:30 PM"
+"04:00 AM","04:00 AM"
+"04:30 AM","04:30 AM"
+"04:00 PM","04:00 PM"
+"04:30 PM","04:30 PM"
+"05:00 AM","05:00 AM"
+"05:30 AM","05:30 AM"
+"05:00 PM","05:00 PM"
+"05:30 PM","05:30 PM"
+"06:00 AM","06:00 AM"
+"06:30 AM","06:30 AM"
+"06:00 PM","06:00 PM"
+"06:30 PM","06:30 PM"
+"07:00 AM","07:00 AM"
+"07:30 AM","07:30 AM"
+"07:00 PM","07:00 PM"
+"07:30 PM","07:30 PM"
+"08:00 AM","08:00 AM"
+"08:30 AM","08:30 AM"
+"08:00 PM","08:00 PM"
+"08:30 PM","08:30 PM"
+"09:00 AM","09:00 AM"
+"09:30 AM","09:30 AM"
+"09:00 PM","09:00 PM"
+"09:30 PM","09:30 PM"
+"10:00 AM","10:00 AM"
+"10:30 AM","10:30 AM"
+"10:00 PM","10:00 PM"
+"10:30 PM","10:30 PM"
+"11:00 AM","11:00 AM"
+"11:30 AM","11:30 AM"
+"11:00 PM","11:00 PM"
+"11:30 PM","11:30 PM"
+Tuesday,Tuesday
+Wednesday,Wednesday
+Thursday,Thursday
+Friday,Friday
+Saturday,Saturday
+Sunday,Sunday
+"Product Type","Product Type"
+"Select all","Select all"
+"Unselect all","Unselect all"
+Simple,Simple
+Configurable,Configurable
+Bundle,Bundle
+Grouped,Grouped
+Virtual,Virtual
+Downloadable,Downloadable
+"Attribute Set","Attribute Set"
+"Product Visibility","Product Visibility"
+"Not Visible Individually","Not Visible Individually"
+Catalog,Catalog
+Search,Search
+"Catalog, Search","Catalog, Search"
+"Advanced filters","Advanced filters"
+=,=
+>,>
+<,<
+&ge;,&ge;
+&le;,&le;
+&ne;,&ne;
+like,like
+"not like","not like"
+"is null","is null"
+"is not null","is not null"
+in,in
+"not in","not in"
+Refresh,Refresh
+Preview,Preview
+Library,Library
+Report,Report
+"No product found.","No product found."
+"Refresh the preview","Refresh the preview"
+"Refresh the report","Refresh the report"
+"<span class='wyomind-logo'>Wyomind</span>","<span class='wyomind-logo'>Wyomind</span>"
+"<span class='sgs-logo'>Simple Google Shopping</span>","<span class='sgs-logo'>Simple Google Shopping</span>"
+"License activation","License activation"
+"Extension version","Extension version"
+"Activation key","Activation key"
+"1- Fill this field with your activation key.","1- Fill this field with your activation key."
+"Remote Activation","Remote Activation"
+"2- Choose your activation method.<br/>[yes = automatic activation]<br/>[no = manual activation]","2- Choose your activation method.<br/>[yes = automatic activation]<br/>[no = manual activation]"
+"Activation code","Activation code"
+"3 - Follow the instructions in the nofication.<br/>Then fill this field with the license code you get.!","3 - Follow the instructions in the nofication.<br/>Then fill this field with the license code you get.!"
+"Cron job reporting","Cron job reporting"
+"Enable cron job reporting","Enable cron job reporting"
+"Sender Email","Sender Email"
+"Sender Name","Sender Name"
+"Send the reports to","Send the reports to"
+"Emails must be separated with a comma (,).","Emails must be separated with a comma (,)."
+"Report title","Report title"
+"Core settings // Advanced users //","Core settings // Advanced users //"
+"Items in preview","Items in preview"
+"Default value : 10","Default value : 10"
+"Items in buffer","Items in buffer"
+"Items in SQL request","Items in SQL request"
+"Default value : 1500","Default value : 1500"
+"Number of advanced filters","Number of advanced filters"
+"Use of OR/AND statements in advanced filters","Use of OR/AND statements in advanced filters"
+"Default value : No","Default value : No"
+"Include not in menu categories","Include not in menu categories"
+"Memory limit size (M)","Memory limit size (M)"
+"Default value : 1024","Default value : 1024"
+"Use canonical urls","Use canonical urls"
+"Enable log reporting","Enable log reporting"

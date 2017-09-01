@@ -1,0 +1,83 @@
+<?php
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+/** @var $block \Magento\Checkout\Block\Cart\Sidebar */
+?>
+
+<div data-block="minicart" class="minicart-wrapper">
+    <a class="action showcart" id="action showcart" href="<?php echo $block->getShoppingCartUrl(); ?>"
+       data-bind="scope: 'minicart_content'">
+       <i class="basketbag" aria-hidden="true"></i>
+        <span class="text"><?php echo __('My Cart'); ?></span>
+        <span class="counter qty empty"
+              data-bind="css: { empty: !!getCartParam('summary_count') == false }, blockLoader: isLoading">
+            <span class="counter-number">
+            <!-- ko if: getCartParam('summary_count') --><!-- ko text: getCartParam('summary_count') --><!-- /ko --><!-- /ko -->
+            <!-- ko ifnot: getCartParam('summary_count') -->0<!-- /ko -->
+            </span>
+            <span class="counter-label">
+                <!-- ko i18n: 'items' --><!-- /ko -->
+            </span>
+        </span>
+        <span class="basketnone">basket</span>
+    </a>
+
+    <?php if ($block->getIsNeedToDisplaySideBar()): ?>
+        <div class="block block-minicart empty"
+             data-role="dropdownDialog"
+             data-mage-init='{"dropdownDialog":{
+                "appendTo":"[data-block=uicontent]",
+                "triggerTarget":".showcart",
+                "timeout": "2000",
+                "closeOnMouseLeave": false,
+                "closeOnEscape": true,
+                "triggerClass":"active",
+                "parentClass":"active",
+                "buttons":[]}}'>
+            <div id="minicart-content-wrapper" data-bind="scope: 'minicart_content'">
+            <div style="float:right"><a class="popupclose" id="popupclose" onclick="return hideAll()" href="javascript:void(0)">x</a></div>
+
+
+                <!-- <div style="float:right"><a class="popupclose" id="popupclose" onclick="jQuery('.minicart-wrapper').trigger('click')" href="javascript:void(0)">x</a></div> -->
+                <!-- ko template: getTemplate() --><!-- /ko -->
+                <?php //echo $block->getChildHtml('minicart.addons'); ?>
+            </div>
+            
+        </div>
+    <?php endif ?>
+    <script>
+        window.checkout = <?php echo \Zend_Json::encode($block->getConfig()); ?>;
+    </script>
+
+    <script type="text/javascript">
+       
+            function hideAll(){
+
+                jQuery(".minicart-content").removeClass('active');
+                jQuery(".minicart-content .mage-dropdown-dialog").hide();
+                jQuery(".loader").hide();
+            }
+       
+
+
+    </script>
+
+
+    <script type="text/x-magento-init">
+    {
+        "[data-block='minicart']": {
+            "Magento_Ui/js/core/app": <?php echo $block->getJsLayout();?>
+        },
+        "*": {
+            "Magento_Ui/js/block-loader": "<?php echo $block->getViewFileUrl('images/loader-1.gif'); ?>"
+        }
+    }
+    </script>
+</div>
+
+

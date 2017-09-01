@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--
+ * Celebros
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish correct extension functionality.
+ * If you wish to customize it, please contact Celebros.
+ *
+ ******************************************************************************
+ * @category    Celebros
+ * @package     Celebros_ConversionPro
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Store/etc/config.xsd">
+    <default>
+        <conversionpro>
+            <general_settings>
+                <enabled>1</enabled>
+                <host>uitemplatev3.celebros.com</host>
+                <adddiv>1</adddiv>
+                <addscripts>1</addscripts>
+                <hidecontent>1</hidecontent>
+            </general_settings>
+
+            <nav_to_search_settings>
+                <nav_to_search>1</nav_to_search>
+            </nav_to_search_settings>
+
+            <advanced>
+                <scripts_path>uitemplate/Scripts</scripts_path>
+                <client_config_path>uitemplate/Clients</client_config_path>
+                <client_config_js_filename>ClientConfig.js</client_config_js_filename>
+            </advanced>
+        </conversionpro>
+    </default>
+</config>

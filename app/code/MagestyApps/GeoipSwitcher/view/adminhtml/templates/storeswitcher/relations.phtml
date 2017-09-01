@@ -1,0 +1,165 @@
+<?php
+/**
+ * MagestyApps
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you are unable to obtain it through the world-wide-web, please send an email
+ * to alex@magestyapps.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade the extension to newer
+ * versions in the future. If you wish to customize this extension for your
+ * needs please refer to http://www.magestyapps.com for more information.
+ *
+ * @category    MagestyApps
+ * @package     MagestyApps_StoreSwitcher
+ * @copyright   Copyright (c) 2015 MagestyApps Inc. (https://www.magestyapps.com)
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+
+/** @var \MagestyApps\GeoipSwitcher\Block\Adminhtml\StoreSwitcher\Relations $block */
+
+$allCountries = $block->getAllCountries();
+?>
+
+<div class="page-actions" data-ui-id="page-actions-toolbar-content-header">
+    <div class="page-actions-inner" data-title="Stores">
+        <div class="page-actions-buttons">
+            <?php if ($block->isSaveAllowed()): ?>
+            <button id="add" type="button" class="action-default scalable add primary save-relations">
+                <span><?php echo __('Save Relations') ?></span>
+            </button>
+            <?php endif; ?>
+            <button id="add_store" type="button" class="action-default scalable add reset-relations">
+                <span><?php echo __('Reset') ?></span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<div style="clear: both; width: 100%"></div>
+
+<form id="relations_form" action="<?php echo $this->getFormActionUrl() ?>" method="post">
+    <input name="form_key" type="hidden" value="<?php echo $block->getFormKey() ?>" />
+    <div id="storeGrid" data-grid-id="storeGrid">
+
+        <div class="admin__data-grid-wrap admin__data-grid-wrap-static">
+
+            <table class="data-grid" id="storeGrid_table">
+                <!-- Rendering column set -->
+                <thead>
+                <tr>
+                    <th data-sort="website_title" data-direction="asc" class="data-grid-th not-sort">
+                        <span><?php echo __('Web Site'); ?></span>
+                    </th>
+                    <th data-sort="group_title" data-direction="asc" class="data-grid-th not-sort">
+                        <span><?php echo __('Store'); ?></span>
+                    </th>
+                    <th data-sort="store_title" data-direction="asc" class="data-grid-th not-sort">
+                        <span><?php echo __('Store View'); ?></span>
+                    </th>
+                    <th data-sort="store_title" data-direction="asc" class="data-grid-th not-sort">
+                        <span><?php echo __('Related Countries'); ?></span>
+                    </th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <?php  foreach ($block->getAllWebsites() as $website): ?>
+                    <?php foreach ($website->getGroups() as $group): ?>
+                        <?php foreach ($group->getStores() as $store): ?>
+                            <?php
+                            $storeCountries = explode(',', $store->getStoreswitcherCountries());
+                            $rowspanWS = count($website->getStores());
+                            $rowspanSG = count($group->getStores());
+                            ?>
+                            <tr>
+                                <?php if (!$website->getAlreadyShown()): ?>
+                                    <td rowspan="<?php echo $rowspanWS ?>">
+                                        <b><?php echo $website->getName(); ?></b><br />
+                                        (<?php echo __('Code: %1', $website->getCode()); ?>)
+                                    </td>
+                                <?php endif; ?>
+
+                                <?php if (!$group->getAlreadyShown()): ?>
+                                    <td rowspan="<?php echo $rowspanSG ?>">
+                                        <b><?php echo $group->getName(); ?></b>
+                                    </td>
+                                <?php endif; ?>
+
+                                <td>
+                                    <b><?php echo $store->getName(); ?></b><br />
+                                    (<?php echo __('Code: %1', $store->getCode()); ?>)
+                                </td>
+                                <td>
+                                    <span id="value_<?php echo $store->getId() ?>"><?php echo str_replace(',', ', ', $store->getStoreswitcherCountries()); ?></span>
+
+                                    <select disabled="disabled" style="display: none;" multiple="multiple" size="6" class="select multiselect" name="countries[<?php echo $store->getStoreId(); ?>][]" id="relation_<?php echo $store->getStoreId(); ?>">
+                                        <?php foreach ($allCountries as $country): ?>
+                                            <option<?php if (in_array($country['value'], $storeCountries)){ echo ' selected="selected"'; } ?> value="<?php echo $country['value']; ?>"><?php echo $country['label']; ?></option>
+                                        <?php endforeach; ?>
+                                    </select>
+                                    <br />
+                                    <a href="javascript:void(0)" class="change-relation" id="relation-change-button-<?php echo $store->getId(); ?>" data-relation-id="<?php echo $store->getId() ?>">Change</a>
+                                </td>
+                            </tr>
+                            <?php
+                            $website->setAlreadyShown(1);
+                            $group->setAlreadyShown(1);
+                            ?>
+                        <?php endforeach; ?>
+                    <?php endforeach; ?>
+                <?php endforeach; ?>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</form>
+
+<script>
+    require([
+        "jquery"
+    ], function(jQuery){
+
+        function toggleRelation(relationId)
+        {
+            var selectBox = jQuery('#relation_' + relationId);
+            if(selectBox){
+                selectBox.toggle();
+
+                if(selectBox.css('display') == 'none'){
+                    selectBox.attr('disabled', 'disabled');
+                    jQuery('#relation-change-button-' + relationId).html('<?php echo __('Change'); ?>');
+                    jQuery('#value_' + relationId).css({display: 'block'});
+                } else {
+                    selectBox.attr('disabled', false);
+                    jQuery('#relation-change-button-' + relationId).html('<?php echo __('Cancel'); ?>');
+                    jQuery('#value_' + relationId).css({display: 'none'});
+                }
+            }
+        }
+
+        jQuery('a.change-relation').bind('click', function() {
+            var relationId = jQuery(this).data('relation-id');
+            toggleRelation(relationId);
+        });
+
+        jQuery('.save-relations').bind('click', function() {
+
+            var relationsForm = jQuery('form#relations_form');
+            relationsForm.submit();
+
+        });
+
+        jQuery('.reset-relations').bind('click', function() {
+            location.reload();
+        });
+
+    });
+</script>

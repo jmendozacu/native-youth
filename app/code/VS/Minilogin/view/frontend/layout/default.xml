@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <!--<move element="authentication-popup" destination="login-icon"/>-->
+        <referenceContainer name="header-wrapper">
+            <block class="VS\Minilogin\Block\Customer\Account\Form" name="minilogin" as="minilogin" template="VS_Minilogin::account/link/mini-login.phtml">
+                <arguments>
+                    <argument name="jsLayout" xsi:type="array">
+                        <item name="types" xsi:type="array"/>
+                        <item name="components" xsi:type="array">
+                            <item name="mini_login_content" xsi:type="array">
+                                <item name="component" xsi:type="string">VS_Minilogin/js/view/minilogin</item>
+                                <item name="config" xsi:type="array">
+                                    <item name="template" xsi:type="string">Magento_Customer/authentication-popup</item>
+                                </item>
+                                <item name="children" xsi:type="array">
+                                    <item name="messages" xsi:type="array">
+                                        <item name="component" xsi:type="string">Magento_Ui/js/view/messages</item>
+                                        <item name="displayArea" xsi:type="string">messages</item>
+                                    </item>
+                                </item>
+                            </item>
+                        </item>
+                    </argument>
+                </arguments>
+                <container name="customer.login.container" label="Customer Login Container" htmlTag="div" htmlClass="login-container">
+                    <block class="Magento\Customer\Block\Form\Login" name="customer_form_login" template="form/login.phtml">
+                        <container name="form.additional.info" as="form_additional_info"/>
+                    </block>
+                    <block class="Magento\Customer\Block\Form\Login\Info" name="customer.new" template="newcustomer.phtml"/>
+                </container>
+                <block class="Magento\Cookie\Block\RequireCookie" name="require-cookie" template="Magento_Cookie::require_cookie.phtml">
+                    <arguments>
+                        <argument name="triggers" xsi:type="array">
+                            <item name="loginButton" xsi:type="string">.action.login</item>
+                        </argument>
+                    </arguments>
+                </block>
+            </block>
+        </referenceContainer>
+    </body>
+</page>

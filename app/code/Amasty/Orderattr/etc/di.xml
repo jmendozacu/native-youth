@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Amasty Team
+ * @copyright Copyright (c) 2016 Amasty (https://www.amasty.com)
+ * @package Amasty_Orderattr
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <preference for="Amasty\Orderattr\Api\Data\OrderAttributeInterface" type="Amasty\Orderattr\Model\Order\Attribute"/>
+    <preference for="Amasty\Orderattr\Api\Data\OrderAttributeDataInterface" type="Amasty\Orderattr\Model\OrderAttributeData"/>
+    <preference for="Amasty\Orderattr\Api\Data\OrderAttributeValueInterface" type="Amasty\Orderattr\Model\Order\Attribute\Value"/>
+    <preference for="Amasty\Orderattr\Api\OrderAttributeValueRepositoryInterface" type="Amasty\Orderattr\Model\Order\Attribute\ValueRepository"/>
+
+    <type name="Magento\Quote\Model\Quote\Address">
+        <plugin name="AmorderattrSetQuoteCustomAttributes" type="Amasty\Orderattr\Plugin\Order\AttributesList" />
+    </type>
+
+    <type name="Magento\Checkout\Model\ShippingInformationManagement">
+        <plugin name="AmorderattrSaveQuoteCustomAttributes" type="Amasty\Orderattr\Plugin\Order\ShippingInformationManagement" />
+    </type>
+
+    <type name="Magento\Checkout\Model\PaymentInformationManagement">
+        <plugin name="AmorderattrSavePaymentCustomAttributes" type="Amasty\Orderattr\Plugin\Order\PaymentInformationManagement" />
+    </type>
+    <type name="Magento\Checkout\Model\GuestPaymentInformationManagement">
+        <plugin name="AmorderattrGuestSavePaymentCustomAttributes" type="Amasty\Orderattr\Plugin\Order\GuestPaymentInformationManagement" />
+    </type>
+
+    <type name="Magento\Sales\Block\Items\AbstractItems">
+        <plugin name="Amasty_Orderattr::OrderEmailAttributesList" type="Amasty\Orderattr\Plugin\Order\Email\Attributes" />
+    </type>
+
+    <type name="Magento\Sales\Api\OrderRepositoryInterface">
+        <plugin name="AmorderattrSaveOrder" type="Amasty\Orderattr\Plugin\Order\OrderSave"/>
+    </type>
+
+    <type name="Magento\Sales\Block\Order\PrintOrder\Invoice">
+        <plugin name="Amasty_Orderattr::PrintInvoice" type="Amasty\Orderattr\Plugin\Order\PrintOrder" />
+    </type>
+    <type name="Magento\Sales\Block\Order\PrintOrder\Shipment">
+        <plugin name="Amasty_Orderattr::PrintShipment" type="Amasty\Orderattr\Plugin\Order\PrintOrder" />
+    </type>
+
+</config>

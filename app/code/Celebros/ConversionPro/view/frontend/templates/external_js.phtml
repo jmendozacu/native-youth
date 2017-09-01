@@ -1,0 +1,7 @@
+<?php $helper = $this->helper('Celebros\ConversionPro\Helper\Data') ?>
+<?php if ($helper->getAddScripts()) : ?>
+  <?php foreach ($helper->getExternalJsUrls() as $url) : ?>
+<script type="text/javascript" src="<?php echo $url ?>"></script>
+  <?php endforeach ?>
+<?php endif ?>
+

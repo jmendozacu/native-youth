@@ -1,0 +1,115 @@
+"User Guide","User Guide"
+"Please correct the email address.","Please correct the email address."
+"We're unable to send the password reset email.","We're unable to send the password reset email."
+"Please enter your email.","Please enter your email."
+"If there is an account associated with %1 you will receive an email with a link to reset your password.","If there is an account associated with %1 you will receive an email with a link to reset your password."
+"FORGOT PASSWORD","FORGOT PASSWORD"
+"* Required Fields","* Required Fields"
+"Please enter your email address below. You will receive a link to reset your password.","Please enter your email address below. You will receive a link to reset your password."
+"Email Address","Email Address"
+Submit,Submit
+"Go back","Go back"
+Loading...,Loading...
+"Sign In","Sign In"
+Password,Password
+"Forgot Your Password?","Forgot Your Password?"
+"iwdMy billing and shipping address are the same","iwdMy billing and shipping address are the same"
+Update,Update
+Cancel,Cancel
+Edit,Edit
+"Save in address book","Save in address book"
+"!!My billing and shipping address are the same","!!My billing and shipping address are the same"
+Comment,Comment
+"Enter comment","Enter comment"
+"Estimated Total","Estimated Total"
+"You already have an account with us. Sign in or continue as guest.","You already have an account with us. Sign in or continue as guest."
+Login,Login
+"Grand Total","Grand Total"
+"My Cart","My Cart"
+Close,Close
+item,item
+items,items
+"Go to Checkout","Go to Checkout"
+"Recently added item(s)","Recently added item(s)"
+"You have no items in your shopping cart.","You have no items in your shopping cart."
+"View and edit cart","View and edit cart"
+"See Details","See Details"
+"Options Details","Options Details"
+Price,Price
+"See price before order confirmation.","See price before order confirmation."
+Qty,Qty
+Remove,Remove
+"Cart Subtotal","Cart Subtotal"
+"No Payment Methods","No Payment Methods"
+"Payment Method","Payment Method"
+"Payment Information","Payment Information"
+"Enter Your Address to View Payment Options.","Enter Your Address to View Payment Options."
+"Discount Codes","Discount Codes"
+"Enter your coupon code:","Enter your coupon code:"
+Apply,Apply
+"You can track your order status by creating an account.","You can track your order status by creating an account."
+"A letter with further instructions will be sent to your email.","A letter with further instructions will be sent to your email."
+"Place Order Now","Place Order Now"
+"Forgot an Item?","Forgot an Item?"
+"Edit Your Cart","Edit Your Cart"
+"Ship Here","Ship Here"
+"Shipping Address","Shipping Address"
+"Ship To:","Ship To:"
+edit,edit
+"Shipping Method:","Shipping Method:"
+"Name & Address","Name & Address"
+"New Address","New Address"
+"Shipping Method","Shipping Method"
+"Select Method","Select Method"
+"Method Title","Method Title"
+Next,Next
+"Sorry, no quotes are available for this order at this time","Sorry, no quotes are available for this order at this time"
+"Review Your Order","Review Your Order"
+"Item in Cart","Item in Cart"
+"Items in Cart","Items in Cart"
+"View Details","View Details"
+"Order Summary","Order Summary"
+"Your coupon was successfully removed","Your coupon was successfully removed"
+"Your information was saved.","Your information was saved."
+"Your coupon was successfully applied","Your coupon was successfully applied"
+"Back to Checkout","Back to Checkout"
+"Provided Zip/Postal Code seems to be invalid.","Provided Zip/Postal Code seems to be invalid."
+" Example: "," Example: "
+"If you believe it is the right one you can ignore this notice.","If you believe it is the right one you can ignore this notice."
+"Save Address","Save Address"
+iwd,iwd
+"Checkout Suite","Checkout Suite"
+Info,Info
+Version,Version
+Documentation,Documentation
+"General Settings","General Settings"
+Enable,Enable
+"Meta Title","Meta Title"
+"Display Discount Field","Display Discount Field"
+"Enable Order Comments?","Enable Order Comments?"
+"Store Credit Options","Store Credit Options"
+"Enable Store Credit Functionality","Enable Store Credit Functionality"
+"Show Store Credit History to Customers","Show Store Credit History to Customers"
+"Refund Store Credit Automatically","Refund Store Credit Automatically"
+"Store Credit Update Email Template","Store Credit Update Email Template"
+"IWD In-Store Pickup","IWD In-Store Pickup"
+Enabled,Enabled
+Title,Title
+"Minimum Order Amount","Minimum Order Amount"
+"Displayed Error Message","Displayed Error Message"
+"Ship to Applicable Countries","Ship to Applicable Countries"
+"Ship to Specific Countries","Ship to Specific Countries"
+"Sort Order","Sort Order"
+Stores,Stores
+Subtotal,Subtotal
+Shipping,Shipping
+"Not yet calculated","Not yet calculated"
+Tax,Tax
+Discount,Discount
+"Order Total Excl. Tax","Order Total Excl. Tax"
+"Order Total Incl. Tax","Order Total Incl. Tax"
+"Your credit card will be charged for","Your credit card will be charged for"
+"Order Total","Order Total"
+"IWD Shipping Address","IWD Shipping Address"
+"We'll send your order confirmation here.","We'll send your order confirmation here."
+"For delivery questions.","For delivery questions."

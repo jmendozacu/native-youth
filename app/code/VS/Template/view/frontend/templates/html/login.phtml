@@ -1,0 +1,57 @@
+               
+                       
+<div class="inner-form-right">
+    <div class="block-content" aria-labelledby="block-customer-login-heading">
+     
+        <form class="form form-login"
+              action="<?php /* @escapeNotVerified */ echo $block->getPostActionUrl() ?>"
+              method="post"
+              id="header-login-form"
+              data-mage-init='{"validation":{}}'>
+            <?php echo $block->getBlockHtml('formkey'); ?>
+
+                <div class="block block-new-customer">
+                <div class="block-title">
+                
+                    <h3><strong id="block-new-customer-heading" role="heading" aria-level="2"><?php /* @escapeNotVerified */ echo __('New to Neon Rose?') ?></strong></h3>
+                    
+                </div>
+                <div class="block-content" aria-labelledby="block-new-customer-heading">
+                    <p><?php /* @escapeNotVerified */ echo __('Well first off, welcome! why not make your life easier and save your stuff once.') ?></p>
+                </div> 
+                    <div class="actions-toolbar">
+                        <div class="primary">
+                            <a href="<?php /* @escapeNotVerified */ echo $this->getUrl('customer/account/create') ?>" class="action login primary"><span><?php /* @escapeNotVerified */ echo __('Join') ?></span></a>
+                        </div>
+                    </div>
+                
+            </div>
+            <fieldset class="fieldset login" data-hasrequired="<?php /* @escapeNotVerified */ echo __('* Required Fields') ?>">
+                <div class="field email required">
+                    <div class="control">
+
+
+
+                        <h3><strong>Login</strong></h3>
+
+    
+
+                        <input name="login[username]" value="<?php echo $block->escapeHtml($block->getUsername()) ?>" <?php if ($block->isAutocompleteDisabled()) :?> autocomplete="off"<?php endif; ?> id="email" type="email" class="input-text" title="<?php /* @escapeNotVerified */ echo __('Email') ?>" data-validate="{required:true, 'validate-email':true}" placeholder="<?php /* @escapeNotVerified */ echo __('Email') ?>">
+                    </div>
+                </div>
+                <div class="field password required">
+                    <div class="control">
+                        <input name="login[password]" type="password" <?php if ($block->isAutocompleteDisabled()) :?> autocomplete="off"<?php endif; ?> class="input-text" id="pass" title="<?php /* @escapeNotVerified */ echo __('Password') ?>" data-validate="{required:true}" placeholder="<?php /* @escapeNotVerified */ echo __('Password') ?>">
+                    </div>
+                </div>
+                <div class="block-content" aria-labelledby="block-new-customer-heading">
+                
+                </div>
+                <div class="actions-toolbar">
+                                    <div class="primary"><button type="submit" class="action login primary" name="send" id="send2"><span><?php /* @escapeNotVerified */ echo __('Get In') ?></span></button></div>
+                    <div class="secondary"><a class="action remind" href="<?php /* @escapeNotVerified */ echo $block->getForgotPasswordUrl() ?>"><span><?php /* @escapeNotVerified */ echo __('Opps...Forgot Your Password?') ?></span></a></div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>

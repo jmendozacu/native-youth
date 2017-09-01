@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 ebizmarts. All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <type name="Magento\Customer\Model\AccountManagement">
+        <plugin name="sagepaysuiteaccountmanagement" type="Ebizmarts\SagePaySuite\Model\Plugin\AccountManagement" sortOrder="10"/>
+    </type>
+
+    <type name="Ebizmarts\SagePaySuite\Model\Logger\Handler">
+        <arguments>
+            <argument name="filesystem" xsi:type="object">Magento\Framework\Filesystem\Driver\File</argument>
+        </arguments>
+    </type>
+
+    <type name="Ebizmarts\SagePaySuite\Model\Logger\Logger">
+        <arguments>
+            <argument name="name" xsi:type="string">SagePaySuiteLogger</argument>
+            <argument name="handlers"  xsi:type="array">
+                <item name="Request" xsi:type="object">Ebizmarts\SagePaySuite\Model\Logger\Request</item>
+                <item name="Cron" xsi:type="object">Ebizmarts\SagePaySuite\Model\Logger\Cron</item>
+                <item name="Exception" xsi:type="object">Ebizmarts\SagePaySuite\Model\Logger\Exception</item>
+            </argument>
+        </arguments>
+    </type>
+
+    <preference for="Ebizmarts\SagePaySuite\Api\ServerManagementInterface" type="Ebizmarts\SagePaySuite\Model\ServerRequestManagement" />
+    <preference for="Ebizmarts\SagePaySuite\Api\GuestServerManagementInterface" type="Ebizmarts\SagePaySuite\Model\GuestServerRequestManagement" />
+
+    <preference for="Ebizmarts\SagePaySuite\Api\Data\ResultInterface" type="Ebizmarts\SagePaySuite\Api\Data\Result" />
+    <preference for="Ebizmarts\SagePaySuite\Api\Data\FormResultInterface" type="Ebizmarts\SagePaySuite\Api\Data\FormResult" />
+
+    <preference for="Ebizmarts\SagePaySuite\Api\FormManagementInterface" type="Ebizmarts\SagePaySuite\Model\FormRequestManagement" />
+    <preference for="Ebizmarts\SagePaySuite\Api\GuestFormManagementInterface" type="Ebizmarts\SagePaySuite\Model\GuestFormRequestManagement" />
+
+    <preference for="Ebizmarts\SagePaySuite\Api\PayPalManagementInterface" type="Ebizmarts\SagePaySuite\Model\PayPalRequestManagement" />
+    <preference for="Ebizmarts\SagePaySuite\Api\GuestPayPalManagementInterface" type="Ebizmarts\SagePaySuite\Model\GuestPayPalRequestManagement" />
+
+    <preference for="\Ebizmarts\SagePaySuite\Api\SagePayData\FraudScreenResponseInterface" type="\Ebizmarts\SagePaySuite\Api\SagePayData\FraudScreenResponse" />
+    <preference for="\Ebizmarts\SagePaySuite\Api\SagePayData\FraudScreenRuleInterface" type="\Ebizmarts\SagePaySuite\Api\SagePayData\FraudScreenRule" />
+</config>

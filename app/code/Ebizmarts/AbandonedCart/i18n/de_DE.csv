@@ -1,0 +1,46 @@
+Specific,Specific
+Automatic,Automatic
+"Fixed amount","Fixed amount"
+Percentage,Percentage
+Days,Days
+Hours,Hours
+No,No
+Yes,Yes
+MageMonkey,MageMonkey
+"Abandoned Cart","Abandoned Cart"
+"Abandoned Cart General Configuration","Abandoned Cart General Configuration"
+Enabled,Enabled
+"Log Activated","Log Activated"
+"First Date","First Date"
+Sender,Sender
+"Redirect Page","Redirect Page"
+"Mandrill Tag","Mandrill Tag"
+"Max number of emails to send","Max number of emails to send"
+"First Email Subject","First Email Subject"
+"First Email Template","First Email Template"
+"Send Mail After","Send Mail After"
+Unit,Unit
+"Second Email Subject","Second Email Subject"
+"Second Email Template","Second Email Template"
+"Third Email Subject","Third Email Subject"
+"Third Email Template","Third Email Template"
+"Fourth Email Subject","Fourth Email Subject"
+"Fourth Email Template","Fourth Email Template"
+"Fifth Email Subject","Fifth Email Subject"
+"Fifth Email Template","Fifth Email Template"
+"Customer Group","Customer Group"
+"Auto login link","Auto login link"
+Coupon,Coupon
+"Create Coupon?","Create Coupon?"
+"On email number?","On email number?"
+Option,Option
+"Coupon Code","Coupon Code"
+"Expire on","Expire on"
+"Coupon Length","Coupon Length"
+"Discount Type","Discount Type"
+"Discount Amount","Discount Amount"
+"Label for Coupon","Label for Coupon"
+"A/B Testing","A/B Testing"
+"Next Email is","Next Email is"
+"Test suffix","Test suffix"
+"If coupon enabled send on email number?","If coupon enabled send on email number?"

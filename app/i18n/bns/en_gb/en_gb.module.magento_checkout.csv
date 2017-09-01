@@ -1,0 +1,61 @@
+"%1 was updated in your shopping cart.","%1 was updated in your shopping basket.",module,Magento_Checkout
+"After Adding a Product Redirect to Shopping Cart","After Adding a Product Redirect to Shopping Basket",module,Magento_Checkout
+"Are you sure you would like to remove this item from the shopping cart?","Are you sure you would like to remove this item from the shopping basket?",module,Magento_Checkout
+"Billing Address","Invoice Address",module,Magento_Checkout
+"Billing Address:","Invoice Address:",module,Magento_Checkout
+"Billing Information","Invoice Information",module,Magento_Checkout
+"Cart contains virtual product(s) only. Shipping address is not applicable.","Basket contains virtual product(s) only. Delivery address is not applicable.",module,Magento_Checkout
+"Cart Subtotal","Basket Subtotal",module,Magento_Checkout
+"Clear Shopping Cart","Clear Shopping Basket",module,Magento_Checkout
+"Display Cart Summary","Display Basket Summary",module,Magento_Checkout
+"Display number of items in cart","Display number of items in basket",module,Magento_Checkout
+"Display Shopping Cart Sidebar","Display Shopping Basket Sidebar",module,Magento_Checkout
+"Edit Your Cart","Edit Your Basket",module,Magento_Checkout
+"Estimate Shipping and Tax","Estimate Delivery and VAT",module,Magento_Checkout
+"Estimate Tax","Estimate VAT",module,Magento_Checkout
+"Excl. Tax","Excl. VAT",module,Magento_Checkout
+"Incl. Tax","Incl. VAT",module,Magento_Checkout
+"Items in Cart","Items in Basket",module,Magento_Checkout
+"My Cart (1 item)","My Basket (1 item)",module,Magento_Checkout
+"My Cart (%1 items)","My Basket (%1 items)",module,Magento_Checkout
+"My Cart","My Basket",module,Magento_Checkout
+"My Cart Link","My Basket Link",module,Magento_Checkout
+"Please specify a shipping method.","Please specify a delivery method.",module,Magento_Checkout
+"Select a billing address from your address book or enter a new address.","Select a invoice address from your address book or enter a new address.",module,Magento_Checkout
+"Select a shipping address from your address book or enter a new address.","Select a delivery address from your address book or enter a new address",module,Magento_Checkout
+"Shipping","Delivery",module,Magento_Checkout
+"Shipping Address:","Delivery Address:",module,Magento_Checkout
+"Shipping Address","Delivery Address",module,Magento_Checkout
+"Shipping address is not set","Delivery address is not set",module,Magento_Checkout
+"Shipping Information","Delivery Information",module,Magento_Checkout
+"Shipping Method","Delivery Method",module,Magento_Checkout
+"Shipping Method:","Delivery Method:",module,Magento_Checkout
+"Shipping method has not been selected yet","Delivery method has not been selected yet",module,Magento_Checkout
+"Shipping method is not applicable for empty cart","Delivery method is not applicable for empty basket",module,Magento_Checkout
+"Ship to different address","Deliver to different address",module,Magento_Checkout
+"Ship to this address","Deliver to this address",module,Magento_Checkout
+"Shopping Cart","Shopping Basket",module,Magento_Checkout
+"Shopping Cart Items","Shopping Basket Items",module,Magento_Checkout
+"Shopping Cart Sidebar","Shopping Basket Sidebar",module,Magento_Checkout
+"Subtotal Excl. Tax","Subtotal Excl. VAT",module,Magento_Checkout
+"Subtotal Incl. Tax","Subtotal Incl. VAT",module,Magento_Checkout
+"Total incl. tax","Total incl. VAT",module,Magento_Checkout
+"Unit Price Excl. Tax","Unit Price Excl. VAT",module,Magento_Checkout
+"Unit Price Incl. Tax","Unit Price Incl. VAT",module,Magento_Checkout
+"Update Cart","Update Basket",module,Magento_Checkout
+"Update Shopping Cart","Update Shopping Basket",module,Magento_Checkout
+"Use Billing Address","Use Invoice Address",module,Magento_Checkout
+"VAT Number","VAT Number",module,Magento_Checkout
+"View cart","View basket",module,Magento_Checkout
+"We cannot add this item to your shopping cart","We cannot add this item to your shopping basket.",module,Magento_Checkout
+"We cannot update the shopping cart.","We cannot update the shopping basket.",module,Magento_Checkout
+"We can't add this item to your shopping cart right now.","We can't add this item to your shopping basketright now.",module,Magento_Checkout
+"We can't update the shopping cart.","We can't update the shopping basket.",module,Magento_Checkout
+"You added %1 to your shopping cart.","You added %1 to your shopping basket.",module,Magento_Checkout
+"You have no items in your shopping cart.","You have no items in your shopping basket.",module,Magento_Checkout
+"Your debit/credit card will be charged for","Your debit/credit card will be charged for",module,Magento_Checkout
+"State/Province","County/Region",module,Magento_Checkout
+"State","County",module,Magento_Checkout
+"Province","Region",module,Magento_Checkout
+"Zip/Postal Code","Post Code",module,Magento_Checkout
+"Zip","Post Code",module,Magento_Checkout
